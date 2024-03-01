@@ -36,11 +36,11 @@ header-includes:
 
 ## Introduction
 
-Populist messages travel well on social media [@ernst2019PopulistsPrefer; @gerbaudo2018SocialMedia]. Politicians employ populist communication to stimulate user interactions [@jost2020PopulismFuels]. The participatory logic of social media also allows ordinary citizens to express their populist views [@devreese2018PopulismExpression]. Comments sections below news are bursting with citizen-generated populism, whether on websites [@blassnig2019HittingNerve] or on Facebook pages operated by news media [@thiele2022PandemicPopulism]. In parallel to a growing interest in populist attitudes [@marcos-marne2023WhatWe], researchers have begun to investigate populism in user comments [e.g., @blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism]. These studies have focused on election periods [@blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism] or relied on narrow country selections [@thiele2022PandemicPopulism]. What is lacking are cross-national studies that provide a comprehensive understanding of how “populism in reader comments is influenced by characteristics of the article or other context factors” [@blassnig2019PopulismOnline, p. 1124]. This study narrows this research gap by examining populism in user comments (henceforth “comments”) on news media Facebook pages from seven European countries – Austria, France, Germany, Italy, Netherlands, Sweden, and the United Kingdom – in the context of COVID-19.
+Populist messages travel well on social media [@ernst2019PopulistsPrefer; @gerbaudo2018SocialMedia]. Politicians employ populist communication to stimulate user interactions [@jost2020PopulismFuels]. The participatory logic of social media also allows ordinary citizens to express their populist views [@devreese2018PopulismExpression]. Comments sections below news are bursting with citizen-generated populism, whether on websites [@blassnig2019HittingNerve] or on Facebook pages operated by news media [@thiele2022PandemicPopulism]. In parallel to a growing interest in populist attitudes [@marcos-marne2023WhatWe], researchers have begun to investigate populism in user comments [e.g., @blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism]. These studies have focused on election periods [@blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism] or relied on narrow country selections [@thiele2022PandemicPopulism]. What is lacking are cross-national studies that provide a comprehensive understanding of how "populism in reader comments is influenced by characteristics of the article or other context factors" [@blassnig2019PopulismOnline, p. 1124]. This study narrows this research gap by examining populism in user comments (henceforth "comments") on news media Facebook pages from seven European countries -- Austria, France, Germany, Italy, Netherlands, Sweden, and the United Kingdom -- in the context of COVID-19.
 
-COVID-19 provides a unique opportunity for studying contextual influences on citizen-generated populism. Government containment policies drastically restricted personal freedoms, triggering psychological reactance in some citizens [@dillard2023PersuasiveMessages]. In many European countries, containment policies were met with protests [@kriesi2023ProtestUnlikely; @neumayer2023ProtestCovid19] that resonated with populist ideology [@brubaker2021ParadoxesPopulism; @stecula2021HowPopulism]. Expressing discontent online became increasingly important during lockdowns [@kriesi2023ProtestUnlikely]. Online, COVID-19 was accompanied by an “infodemic”, which is particularly well researched with regard to the spread of conspiracy theories [@righetti2022OnsetInfodemic]. Less is known about the crisis’s impact on the proliferation of populist content in comments sections, which is unfortunate as comments can, for instance, influence other readers’ attitudes toward vaccinations [@sun2023HowMisinformation]. Previously, I found that populist comments in Germany and Austria are linked to media coverage of COVID-19 [@thiele2022PandemicPopulism]. The limited country selection of that study prevented an adequate investigation of the impact of containment policies and additional media-related factors. Addressing these shortcomings, the present study aims to answer the following research question: How did the COVID-19 crisis and media-related factors influence populism in user comments on news media Facebook pages in seven Western European countries?
+COVID-19 provides a unique opportunity for studying contextual influences on citizen-generated populism. Government containment policies drastically restricted personal freedoms, triggering psychological reactance in some citizens [@dillard2023PersuasiveMessages]. In many European countries, containment policies were met with protests [@kriesi2023ProtestUnlikely; @neumayer2023ProtestCovid19] that resonated with populist ideology [@brubaker2021ParadoxesPopulism; @stecula2021HowPopulism]. Expressing discontent online became increasingly important during lockdowns [@kriesi2023ProtestUnlikely]. Online, COVID-19 was accompanied by an "infodemic", which is particularly well researched with regard to the spread of conspiracy theories [@righetti2022OnsetInfodemic]. Less is known about the crisis's impact on the proliferation of populist content in comments sections, which is unfortunate as comments can, for instance, influence other readers' attitudes toward vaccinations [@sun2023HowMisinformation]. Previously, I found that populist comments in Germany and Austria are linked to media coverage of COVID-19 [@thiele2022PandemicPopulism]. The limited country selection of that study prevented an adequate investigation of the impact of containment policies and additional media-related factors. Addressing these shortcomings, the present study aims to answer the following research question: How did the COVID-19 crisis and media-related factors influence populism in user comments on news media Facebook pages in seven Western European countries?
 
-Here, seven hypotheses and three research questions are examined using digital trace data. This data source warrants high external validity [@blassnig2019HittingNerve, p. 630] but does not allow the direct testing of psychological mechanisms. Therefore, the analysis focuses on the contextual correlates of populism in user comments. A total of 65,258 posts and 3.4 million comments posted during the first three waves of COVID-19 (February 2020 – June 2021) on 21 news media Facebook pages from seven European countries (AT, DE, FR, IT, NL, SE, UK) was analyzed. Comments were machine-translated [@vries2018NoLonger] into German. To measure populism, a computational text analysis technique called “distributed dictionary representation" [@garten2018DictionariesDistributions] was implemented [@thiele2022ThieledDictvectoR], applied, and validated. Post characteristics were captured using validated multilingual dictionaries. Real-world data were obtained from the Oxford COVID-19 government response tracker (OxCGRT) [@hale2020OxfordCOVID19]. Hypotheses were tested using Bayesian multilevel linear regression models [@burkner2022BrmsBayesian].
+Here, seven hypotheses and three research questions are examined using digital trace data. This data source warrants high external validity [@blassnig2019HittingNerve, p. 630] but does not allow the direct testing of psychological mechanisms. Therefore, the analysis focuses on the contextual correlates of populism in user comments. A total of 65,258 posts and 3.4 million comments posted during the first three waves of COVID-19 (February 2020 -- June 2021) on 21 news media Facebook pages from seven European countries (AT, DE, FR, IT, NL, SE, UK) was analyzed. Comments were machine-translated [@vries2018NoLonger] into German. To measure populism, a computational text analysis technique called "distributed dictionary representation" [@garten2018DictionariesDistributions] was implemented [@thiele2022ThieledDictvectoR], applied, and validated. Post characteristics were captured using validated multilingual dictionaries. Real-world data were obtained from the Oxford COVID-19 government response tracker (OxCGRT) [@hale2020OxfordCOVID19]. Hypotheses were tested using Bayesian multilevel linear regression models [@burkner2022BrmsBayesian].
 
 The results show that Facebook posts mentioning the government, experts, COVID-19, and restrictions were associated with higher levels of populism in comments. The stringency of COVID-19 policies affected populism differently in the analyzed countries. I found a limited, positive association in Germany, Austria, and the Netherlands when posts mentioned COVID-19. Moderating comments by the media and, surprisingly, the media-type tabloid press were associated with lower levels of populism. The study concludes by discussing the implications of the findings beyond the pandemic and methodological limitations.
 
@@ -50,15 +50,15 @@ The results show that Facebook posts mentioning the government, experts, COVID-1
 
 Social media has changed the logic of political communication, integrating ordinary citizens into producing and distributing the news [@klinger2015EmergenceNetwork]. Most news media outlets operate pages on social media, where they share links to articles on their websites. Facebook remains the most widely used social media platform for news consumption in all countries studied here, although its heyday has passed [@newman2022ReutersInstitute]. On Facebook, users can comment under posts to express their opinions and engage in discussions and deliberation [@dahlberg2011ReconstructingDigital] or for less constructive purposes [@quandt2018DarkParticipation]. Negative aspects, such as high levels of incivility, often prevail in these spaces [@coe2014OnlineUncivil]. Populist content is one of those negative aspects [@waisbord2018WhyPopulism] and can have detrimental implications for the quality of the user discussion [@thiele2022HowRightWing].
 
-Following Mudde [-@mudde2004PopulistZeitgeist, p. 543], populism is a thin-centered ideology which holds that ‘the people’ are ruled by a ‘corrupt elite’ and which demands unrestricted popular sovereignty. Populists imagine the people as a “homogenous and virtuous community” [@hawkins2018IntroductionIdeational, p. 3] that is only divided and deprived of its sovereignty at the instigation of a treacherous elite [@mudde2004PopulistZeitgeist]. The concept entails at least two dimensions: *anti-elitism* and *people-centrism* [@rooduijn2019StateField]. Popular sovereignty, which is sometimes considered a third dimension, is here considered as the point of contention between the people and the elite [@aslanidis2018MeasuringPopulist, p. 1255]. Following a communication-centered approach, I focus on expressions of populist ideas in text [@devreese2018PopulismExpression]. Online, populist ideology is often communicated in fragments [@engesser2017PopulismSocial]. Messages can be therefore more or less populist on a continuous scale [@aslanidis2018MeasuringPopulist]. Different actors can disseminate populist messages. Populism from politicians [@ernst2019PopulistsPrefer] and journalists [@wettstein2019WhatDrives] has received most scholarly attention. Although populism revolves around the idea of making the people’s voice heard [@canovan1999TrustPeople], only a handful of studies have focused on populist content disseminated by ordinary citizens [@blassnig2019HittingNerve; @blassnig2019PopulismOnline; @galpin2019ParticipatoryPopulism; @thiele2022PandemicPopulism; @thiele2022HowRightWing]. These studies have mostly analyzed comments on news websites [@blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism]. Here, I focus on comments below news media posts on Facebook, which is a preferred social media platform among populists [@schulz2019WherePopulist]. Facebook comments also exhibit a particularly low deliberative quality [@esau2017DesignMatters].
+Following Mudde [-@mudde2004PopulistZeitgeist, p. 543], populism is a thin-centered ideology which holds that 'the people' are ruled by a 'corrupt elite' and which demands unrestricted popular sovereignty. Populists imagine the people as a "homogenous and virtuous community" [@hawkins2018IntroductionIdeational, p. 3] that is only divided and deprived of its sovereignty at the instigation of a treacherous elite [@mudde2004PopulistZeitgeist]. The concept entails at least two dimensions: *anti-elitism* and *people-centrism* [@rooduijn2019StateField]. Popular sovereignty, which is sometimes considered a third dimension, is here considered as the point of contention between the people and the elite [@aslanidis2018MeasuringPopulist, p. 1255]. Following a communication-centered approach, I focus on expressions of populist ideas in text [@devreese2018PopulismExpression]. Online, populist ideology is often communicated in fragments [@engesser2017PopulismSocial]. Messages can be therefore more or less populist on a continuous scale [@aslanidis2018MeasuringPopulist]. Different actors can disseminate populist messages. Populism from politicians [@ernst2019PopulistsPrefer] and journalists [@wettstein2019WhatDrives] has received most scholarly attention. Although populism revolves around the idea of making the people's voice heard [@canovan1999TrustPeople], only a handful of studies have focused on populist content disseminated by ordinary citizens [@blassnig2019HittingNerve; @blassnig2019PopulismOnline; @galpin2019ParticipatoryPopulism; @thiele2022PandemicPopulism; @thiele2022HowRightWing]. These studies have mostly analyzed comments on news websites [@blassnig2019HittingNerve; @galpin2019ParticipatoryPopulism]. Here, I focus on comments below news media posts on Facebook, which is a preferred social media platform among populists [@schulz2019WherePopulist]. Facebook comments also exhibit a particularly low deliberative quality [@esau2017DesignMatters].
 
-To explain the occurrence of populist comments, Blassnig et al. [-@blassnig2019HittingNerve, p. 634] have suggested to consider them as expressions of populist attitudes. Following Hawkins et al. [-@hawkins2020ActivationPopulist], populist attitudes require activation through the political context. Krämer [-@kramer2014MediaPopulism, p. 55] argued that messages, such as media coverage, can activate a cognitive “populism schema” through priming. Hameleers et al. [-@hameleers2021EffectsPopulist] showed that fragments of populist communication can activate larger clusters of populist attitudes. Here, I argue that mentioning representatives of the elite in media posts works as an activating cue that eventually triggers populist comments. The elite is the key antagonist for populists [@hameleers2021EffectsPopulist]. Governments and experts are frequent targets of populist rhetoric [@jagers2007PopulismPolitical; @mede2020SciencerelatedPopulism] and were omnipresent in media coverage as managers of the COVID-19 crisis [@brubaker2021ParadoxesPopulism]. Mentioning these groups may activate populist attitudes and motivate populist citizens to express these views, possibly by an emotional mechanism [@rico2017EmotionalUnderpinnings]. Previous findings support this argument [@thiele2022PandemicPopulism]. Therefore, I hypothesize the following:
+To explain the occurrence of populist comments, Blassnig et al. [-@blassnig2019HittingNerve, p. 634] have suggested to consider them as expressions of populist attitudes. Following Hawkins et al. [-@hawkins2020ActivationPopulist], populist attitudes require activation through the political context. Krämer [-@kramer2014MediaPopulism, p. 55] argued that messages, such as media coverage, can activate a cognitive "populism schema" through priming. Hameleers et al. [-@hameleers2021EffectsPopulist] showed that fragments of populist communication can activate larger clusters of populist attitudes. Here, I argue that mentioning representatives of the elite in media posts works as an activating cue that eventually triggers populist comments. The elite is the key antagonist for populists [@hameleers2021EffectsPopulist]. Governments and experts are frequent targets of populist rhetoric [@jagers2007PopulismPolitical; @mede2020SciencerelatedPopulism] and were omnipresent in media coverage as managers of the COVID-19 crisis [@brubaker2021ParadoxesPopulism]. Mentioning these groups may activate populist attitudes and motivate populist citizens to express these views, possibly by an emotional mechanism [@rico2017EmotionalUnderpinnings]. Previous findings support this argument [@thiele2022PandemicPopulism]. Therefore, I hypothesize the following:
 
 **H1:** Facebook posts from news media mentioning the government are associated with increased levels of populism in the comments section.
 
 **H2:** Facebook posts from news media mentioning experts are associated with increased levels of populism in the comments section.
 
-Second, newsrooms’ practices in moderating comments might affect opinion expression [@gibson2019FreeSpeech]. Some moderation practices are visible to other users, for example, when news media pages comment below their own posts to remind users about conversational rules [@wintterlin2020HowCope]. Populist users, known for breaching such norms [@hameleers2019PopulismOnline], may react to such moderation by turning silent, as they sense a hostile opinion climate [@matthes2018SpiralSilence]. Conversely, moderation might also backfire if it is perceived as censorship [@sherrick2018EffectExplicit]. Against this backdrop, I pose the following open research question regarding comments authored by the news media pages themselves:
+Second, newsrooms' practices in moderating comments might affect opinion expression [@gibson2019FreeSpeech]. Some moderation practices are visible to other users, for example, when news media pages comment below their own posts to remind users about conversational rules [@wintterlin2020HowCope]. Populist users, known for breaching such norms [@hameleers2019PopulismOnline], may react to such moderation by turning silent, as they sense a hostile opinion climate [@matthes2018SpiralSilence]. Conversely, moderation might also backfire if it is perceived as censorship [@sherrick2018EffectExplicit]. Against this backdrop, I pose the following open research question regarding comments authored by the news media pages themselves:
 
 **RQ1:** How are comments from news media moderating discussions on Facebook associated with the level of populism in comments sections?
 
@@ -70,17 +70,17 @@ Third, the level of populism in comments sections may vary across the type of ne
 
 One main objective of this study is to examine how the context of COVID-19 has affected populism in comments. COVID-19 yielded a range of political consequences. While the first wave saw increased support for governments [@schraff2021PoliticalTrust], later stages were characterized by growing polarization and protests against containment policies [@kriesi2023ProtestUnlikely; @neumayer2023ProtestCovid19]. Scholars have linked those protests to populist ideology [@brubaker2021ParadoxesPopulism; @flew2021GlobalTrust; @stecula2021HowPopulism]. Both, protesters against COVID-19 containment policies and populists exhibit a fundamental distrust in elites, an appetite for conspiracy theories, and a preference for commonsensical over expert knowledge [@brubaker2021ParadoxesPopulism; @stecula2021HowPopulism]. Populist parties in Europe did not respond uniformly to the outbreak of the pandemic [@wondreys2022VictimsPandemic] but tried to later capitalize on the protests. Previous research has explained these protest events by strategic considerations of the organizers [@neumayer2023ProtestCovid19]. This explanation is convincing for offline events but offers little to explain expressions of discontent online, where little collective organization is required. The argument proposed here instead draws on a psychological mechanism.
 
-*Psychological reactance* [@brehm1966TheoryPsychological; @brehm1981PsychologicalReactance] provides a conceptual framework to link the COVID-19 crisis and expressions of populism*.* Reactance “is the motivational state that is hypothesized to occur when a freedom is eliminated or threatened” [@brehm1981PsychologicalReactance, p. 37]. It involves anger and negative cognitions motivating people to restore the threatened freedom or, if this option is blocked, to engage in aggressive or compensatory behavior [@dillard2005NatureReactance; @rosenberg201850YearReview]. Cumulative evidence shows that the severity of a restriction tends to increase reactance [@rosenberg201850YearReview, 3]. While individuals react differently to experiencing reactance, commonly observed responses are expressing hostility toward, and derogating the source of, the restriction [@rosenberg201850YearReview, 3]. COVID-19 containment policies triggered such reactance reactions in some individuals [@dillard2023PersuasiveMessages].
+*Psychological reactance* [@brehm1966TheoryPsychological; @brehm1981PsychologicalReactance] provides a conceptual framework to link the COVID-19 crisis and expressions of populism*.* Reactance "is the motivational state that is hypothesized to occur when a freedom is eliminated or threatened" [@brehm1981PsychologicalReactance, p. 37]. It involves anger and negative cognitions motivating people to restore the threatened freedom or, if this option is blocked, to engage in aggressive or compensatory behavior [@dillard2005NatureReactance; @rosenberg201850YearReview]. Cumulative evidence shows that the severity of a restriction tends to increase reactance [@rosenberg201850YearReview, 3]. While individuals react differently to experiencing reactance, commonly observed responses are expressing hostility toward, and derogating the source of, the restriction [@rosenberg201850YearReview, 3]. COVID-19 containment policies triggered such reactance reactions in some individuals [@dillard2023PersuasiveMessages].
 
 I argue that experiencing reactance can activate populist attitudes [@hawkins2020ActivationPopulist] because of the anger involved in it [@dillard2005NatureReactance]. Anger has been linked to the support of populist ideas [@rico2017EmotionalUnderpinnings], and experiencing reactance during COVID-19 is associated with anti-government attitudes [@hajek2021ParadoxesReactance]. Moreover, populist expressions by opponents of containment policies reflect what reactance researchers call derogating the source of the restriction [@rosenberg201850YearReview]. For example, the government, scientists, and the media are denounced for having fabricated the crisis to impose a dictatorship [@brubaker2021ParadoxesPopulism]. While examining individual motivations for such statements is beyond the scope of this study, the theoretical framework sketched here is useful for deriving hypotheses regarding the impact of contextual [@hawkins2020ActivationPopulist] and content-based [@kramer2014MediaPopulism] factors on populism in comments.
 
-First, reactance occurs more frequently when people believe they are being targeted by persuasion [@rosenberg201850YearReview]. Media coverage of COVID-19 arguably included fear appeals [@sun2023HowMisinformation; @thiele2022PandemicPopulism] that is "persuasive messages designed to scare people by describing the terrible things that will happen to them if they do not do what the message recommends” [@witte1992PuttingFear, p. 329]. Opponents of COVID-19 policies often suspect COVID-19 coverage to be propaganda [@flew2021GlobalTrust]. Those citizens believe themselves to be targeted by a persuasion campaign. Such beliefs should spark reactance and could motivate citizens to express their anger in comments. Previous findings linked COVID-19 coverage in Germany and Austria to populist comments [@thiele2022PandemicPopulism]. News posts that explicitly mention restrictive COVID-19 policies may provoke even stronger reactions, as they prime freedom-threatening aspects. Following these considerations, I hypothesize the following:
+First, reactance occurs more frequently when people believe they are being targeted by persuasion [@rosenberg201850YearReview]. Media coverage of COVID-19 arguably included fear appeals [@sun2023HowMisinformation; @thiele2022PandemicPopulism] that is "persuasive messages designed to scare people by describing the terrible things that will happen to them if they do not do what the message recommends" [@witte1992PuttingFear, p. 329]. Opponents of COVID-19 policies often suspect COVID-19 coverage to be propaganda [@flew2021GlobalTrust]. Those citizens believe themselves to be targeted by a persuasion campaign. Such beliefs should spark reactance and could motivate citizens to express their anger in comments. Previous findings linked COVID-19 coverage in Germany and Austria to populist comments [@thiele2022PandemicPopulism]. News posts that explicitly mention restrictive COVID-19 policies may provoke even stronger reactions, as they prime freedom-threatening aspects. Following these considerations, I hypothesize the following:
 
 **H3**: Facebook posts from news media mentioning COVID-19 are associated with increased levels of populism in the comments section.
 
 **H4**: Facebook posts from news media mentioning restrictive COVID-19 containment policies are associated with increased levels of populism in the comments section.
 
-Second, the magnitude of the threat to personal freedoms has been repeatedly found to be positively related to the level of reactance [@organ1974SocialExchange; @rosenberg201850YearReview]. In the context of COVID-19, the magnitude of restrictions can be determined as the “stringency” of COVID-19 containment policies, which included lockdowns, closing public venues, travel restrictions, or obligations to wear masks. To be clear, stringency denotes the severity of COVID-19 containment policies varying by day and country [@hale2020OxfordCOVID19], *not* the logical consistency of policies. Additionally, I expect that the stringency of COVID-19 policies affects populism in comments sections only if the news post mentions the topic of COVID-19. Therefore, I hypothesize:
+Second, the magnitude of the threat to personal freedoms has been repeatedly found to be positively related to the level of reactance [@organ1974SocialExchange; @rosenberg201850YearReview]. In the context of COVID-19, the magnitude of restrictions can be determined as the "stringency" of COVID-19 containment policies, which included lockdowns, closing public venues, travel restrictions, or obligations to wear masks. To be clear, stringency denotes the severity of COVID-19 containment policies varying by day and country [@hale2020OxfordCOVID19], *not* the logical consistency of policies. Additionally, I expect that the stringency of COVID-19 policies affects populism in comments sections only if the news post mentions the topic of COVID-19. Therefore, I hypothesize:
 
 **H5**: For Facebook posts from news media mentioning COVID-19, the stringency of COVID-19 containment policies is associated with increased levels of populism in the comments section.
 
@@ -88,7 +88,7 @@ Third, the *stringency* of containment policies varied considerably in the count
 
 **RQ3:** How does the association between stringency of COVID-19 containment policies and the level of populism in comments sections vary by country?
 
-Finally, drawing on previous findings [@jorgensen2022PandemicFatigue, p. 1], I expect that a “pandemic fatigue” increased levels of political discontent and expressions of populist attitudes over time. One reason could be that repeating persuasive messages can increase reactance [@koch2013HelpfulHarmful]. Similarly, message novelty has been linked to less reactance [@rosenberg201850YearReview]. The former implies an effect that gradually increases over time, while the latter suggests considerably lower levels of populism during the first wave of COVID-19. Similar associations were observed previously [@thiele2022PandemicPopulism]. As a result, I hypothesize the following:
+Finally, drawing on previous findings [@jorgensen2022PandemicFatigue, p. 1], I expect that a "pandemic fatigue" increased levels of political discontent and expressions of populist attitudes over time. One reason could be that repeating persuasive messages can increase reactance [@koch2013HelpfulHarmful]. Similarly, message novelty has been linked to less reactance [@rosenberg201850YearReview]. The former implies an effect that gradually increases over time, while the latter suggests considerably lower levels of populism during the first wave of COVID-19. Similar associations were observed previously [@thiele2022PandemicPopulism]. As a result, I hypothesize the following:
 
 **H6**: Throughout the COVID-19 crisis, the level of populism in comments sections increased.
 
@@ -149,11 +149,11 @@ UK &    The Guardian &  Quality &   8,469,271 &  2,889 \\
 ```
 These countries also represent different (legacy) media systems [@hallin2004ComparingMedia]. What all seven countries have in common is that they are liberal, Western European democracies that have a record of successful mobilization by populist parties, mostly from the right [@mudde2007PopulistRadical]. Per country, I selected one news media outlet for each of the three media types quality press, tabloid press, and public broadcaster, based on the weekly reach of the corresponding news website [@newman2022ReutersInstitute]. For each outlet, I identified the corresponding Facebook page. Data were only collected from Facebook. Table 1 reports the selected outlets by country and media type, along with the number of Facebook followers, and the number of posts considered in the analysis.
 
-From each Facebook page, all accessible posts published in the first three waves of COVID-19 (1 February 2020 – 30 June 2021) were downloaded. For each of the n=65,258 posts, the first 100 comments were downloaded, resulting in a dataset of n=3,424,691 comments. Capping the number of comments aimed to limit the number of API calls, as the access is shared with all Facepager users [@junger2020FacepagerApplication]. The cap is ten times larger than in previous studies [@blassnig2019HittingNerve, p. 636], and higher than the median number of comments per post (n=58).
+From each Facebook page, all accessible posts published in the first three waves of COVID-19 (1 February 2020 -- 30 June 2021) were downloaded. For each of the n=65,258 posts, the first 100 comments were downloaded, resulting in a dataset of n=3,424,691 comments. Capping the number of comments aimed to limit the number of API calls, as the access is shared with all Facepager users [@junger2020FacepagerApplication]. The cap is ten times larger than in previous studies [@blassnig2019HittingNerve, p. 636], and higher than the median number of comments per post (n=58).
 
 ### Validation Data
 
-For validation, 2,040 posts and 2,040 comments were randomly sampled with equal distribution across countries for annotation by six native-speaking, trained coders (five students and the author); 150 units each were machine-translated for parallel coding. Reliability is reported as Krippendorff’s alpha. Occurrences of *anti-elitism* (alpha=.80) and *people-centrism* (.73) were coded binarily in comments. Considering the fragmentary nature of populist online communication [@engesser2017PopulismSocial], a comment was considered populist if either people-centrism or anti-elitism was coded. Posts were coded for references to *COVID-19* (.96), *restrictive containment policies* (.75), the *government* (.78), and scientific *experts* (.76). The instructions align with Blassnig, Engesser, et al. [-@blassnig2019HittingNerve; see also @blassnig2016CodebookPopulist] and a previously used codebook [@thiele2022PandemicPopulism] and are documented in Appendix A.
+For validation, 2,040 posts and 2,040 comments were randomly sampled with equal distribution across countries for annotation by six native-speaking, trained coders (five students and the author); 150 units each were machine-translated for parallel coding. Reliability is reported as Krippendorff's alpha. Occurrences of *anti-elitism* (alpha=.80) and *people-centrism* (.73) were coded binarily in comments. Considering the fragmentary nature of populist online communication [@engesser2017PopulismSocial], a comment was considered populist if either people-centrism or anti-elitism was coded. Posts were coded for references to *COVID-19* (.96), *restrictive containment policies* (.75), the *government* (.78), and scientific *experts* (.76). The instructions align with Blassnig, Engesser, et al. [-@blassnig2019HittingNerve; see also @blassnig2016CodebookPopulist] and a previously used codebook [@thiele2022PandemicPopulism] and are documented in Appendix A.
 
 ### Multilingual Data
 
@@ -161,17 +161,17 @@ Computational analyses of multilingual texts face the challenge of ensuring meas
 
 Multilingual dictionaries were used to capture topics and actors mentioned in posts. Dictionaries count the occurrence of keywords. Pretests suggested that high levels of recall*,* indicating performance in capturing all relevant documents, and precision, indicating performance in capturing only relevant documents, could be achieved by translating an existing German dictionary [@thiele2022PandemicPopulism]. This was the most cost-effective solution. The dictionary was translated using in-context translation websites (context.reverso.net; linguee.de). The country-specific dictionaries were expanded by nearest neighbors from word embeddings (*fastText*) [@bojanowski2017EnrichingWord], trained on post data. Word embeddings represent semantic relations of words in a vector space and result from machine learning algorithms, trained on large corpora [e.g., @bojanowski2017EnrichingWord]. With the help of the mentioned translation websites, I identified and removed terms that tapped into unintended contexts. Validation is reported in the section on explanatory variables.
 
-For capturing populism in comments, translating an existing German dictionary [@grundl2022PopulistIdeas] was deemed not feasible, as it contains 13k regular expressions. To find a “common denominator” for comparison, comments were machine-translated [@licht2023GoingCrosslingual, p. 9]. Following findings of Vries et al. [-@vries2018NoLonger], I opted for the Google Translate API. German was chosen as the lingua franca, as this limited the costs most efficiently and matched my expertise in capturing populism in German text [@thiele2022HowRightWing]. For economic reasons, comments were truncated to 540 characters before translation, which affected 1.8% of all comments.
+For capturing populism in comments, translating an existing German dictionary [@grundl2022PopulistIdeas] was deemed not feasible, as it contains 13k regular expressions. To find a "common denominator" for comparison, comments were machine-translated [@licht2023GoingCrosslingual, p. 9]. Following findings of Vries et al. [-@vries2018NoLonger], I opted for the Google Translate API. German was chosen as the lingua franca, as this limited the costs most efficiently and matched my expertise in capturing populism in German text [@thiele2022HowRightWing]. For economic reasons, comments were truncated to 540 characters before translation, which affected 1.8% of all comments.
 
 Two further measures aimed at facilitating context-sensitivity and equivalence. First, the translated corpus was used to train a custom word embedding model, which underpins the populism measurement described below. This model thus provides a common reference point, but also accounts for country-specific uses of words that may persist even after translation [@licht2023GoingCrosslingual, p. 23]. Second, during optimization, I selected the measurement that most coherently maximized the output-validity score across countries. Despite these precautions, the achieved level of equivalence is not perfect, as discussed in the next and the concluding section.
 
 ### Dependent Variable
 
-Populism in comments was measured using the computational text analysis technique “distributed dictionary representation” (DDR) [@garten2018DictionariesDistributions]. DDR combines dictionaries with word embeddings to measure how strongly a concept is represented in a text [@garten2018DictionariesDistributions]. Conventional dictionary approaches suffer from low recall [@rauh2018ValidatingSentiment]. DDR is similarly theory-driven as a dictionary, since it captures a concept by researcher-defined keywords. However, it circumvents the need to provide exhaustive lists of words by leveraging word embeddings. The conceptual dictionary and each document are represented as average vectors of the embeddings that represent the meaning of each word in them. DDR then computes the cosine similarity between these vectors, which can range from -1 to +1. This provides a crude indicator for how strongly the concept is reflected in each document [@garten2018DictionariesDistributions]. This technique works best with short, clear-cut dictionaries [@garten2018DictionariesDistributions, p. 348]. The *dictvectoR* [@thiele2022ThieledDictvectoR] R-package implements DDR using *fastText* word embeddings, which are tailored to social media texts, and account for misspellings, out-of-vocabulary words, and morphological rich languages, like German [@bojanowski2017EnrichingWord]. A custom *fastText* model was trained on the translated and originally German corpus of comments, and all German-speaking posts. The model has 200 dimensions and a vocabulary of 89k words.
+Populism in comments was measured using the computational text analysis technique "distributed dictionary representation" (DDR) [@garten2018DictionariesDistributions]. DDR combines dictionaries with word embeddings to measure how strongly a concept is represented in a text [@garten2018DictionariesDistributions]. Conventional dictionary approaches suffer from low recall [@rauh2018ValidatingSentiment]. DDR is similarly theory-driven as a dictionary, since it captures a concept by researcher-defined keywords. However, it circumvents the need to provide exhaustive lists of words by leveraging word embeddings. The conceptual dictionary and each document are represented as average vectors of the embeddings that represent the meaning of each word in them. DDR then computes the cosine similarity between these vectors, which can range from -1 to +1. This provides a crude indicator for how strongly the concept is reflected in each document [@garten2018DictionariesDistributions]. This technique works best with short, clear-cut dictionaries [@garten2018DictionariesDistributions, p. 348]. The *dictvectoR* [@thiele2022ThieledDictvectoR] R-package implements DDR using *fastText* word embeddings, which are tailored to social media texts, and account for misspellings, out-of-vocabulary words, and morphological rich languages, like German [@bojanowski2017EnrichingWord]. A custom *fastText* model was trained on the translated and originally German corpus of comments, and all German-speaking posts. The model has 200 dimensions and a vocabulary of 89k words.
 
-The populism measurement was optimized using 70% of the annotated comments, keeping 30% as test sample. For evaluation, DDR scores were transformed into binary predictors using logistic regression and compared to the annotation. This is not a gold standard test but circumvents the problem of producing granular manual annotations reliably [@grimmer2013TextData, p. 275]. Evaluation focused on F1, a harmonic mean of recall and precision. The optimization aimed to arrive at a short, expressive dictionary that is *inductive* (i.e. reflects the content of observed comments), *theory-driven* (i.e. covers key dimensions of populism), and *comparable* (i.e. maximizes F1 consistently across all countries). The process, documented in Appendix C, followed the following steps: (a) identifying words from the *fastText* model’s vocabulary that semantically resemble the corpus annotated as populist; (b) adding multiword-expressions; (c) manually selecting words on theoretical grounds; (d) generating 2.9 million keyword combinations of different lengths from these words; and (e) evaluating these dictionaries across countries.
+The populism measurement was optimized using 70% of the annotated comments, keeping 30% as test sample. For evaluation, DDR scores were transformed into binary predictors using logistic regression and compared to the annotation. This is not a gold standard test but circumvents the problem of producing granular manual annotations reliably [@grimmer2013TextData, p. 275]. Evaluation focused on F1, a harmonic mean of recall and precision. The optimization aimed to arrive at a short, expressive dictionary that is *inductive* (i.e. reflects the content of observed comments), *theory-driven* (i.e. covers key dimensions of populism), and *comparable* (i.e. maximizes F1 consistently across all countries). The process, documented in Appendix C, followed the following steps: (a) identifying words from the *fastText* model's vocabulary that semantically resemble the corpus annotated as populist; (b) adding multiword-expressions; (c) manually selecting words on theoretical grounds; (d) generating 2.9 million keyword combinations of different lengths from these words; and (e) evaluating these dictionaries across countries.
 
-The dictionary that maximized F1 best across all countries is presented in Table 1, along with translation and performance scores for the test and train data. This dictionary was deemed theoretically convincing as it features words that represent “the elite” from different areas of society (*“politics and media”, “government”, “nepotism”,* *“so-called experts”,* and *”state media”*), words that invoke “the people” as an in-group (“*people”, “taxpayers”, “our system”,* and *“our tax money”*), and words that characterize the struggle over sovereignty between these antagonists (“*dictatorship”, “muzzled”,* and *“obfuscate”*). Although these words are not necessarily populist in isolation, their combined meaning cuts through a broad range of populist key messages [@blassnig2019HittingNerve, p. 638]. This short dictionary is sensitive to the context of COVID-19 but should be able to capture populism in other contexts as well.
+The dictionary that maximized F1 best across all countries is presented in Table 1, along with translation and performance scores for the test and train data. This dictionary was deemed theoretically convincing as it features words that represent "the elite" from different areas of society (*"politics and media", "government", "nepotism",* *"so-called experts",* and *"state media"*), words that invoke "the people" as an in-group ("*people", "taxpayers", "our system",* and *"our tax money"*), and words that characterize the struggle over sovereignty between these antagonists ("*dictatorship", "muzzled",* and *"obfuscate"*). Although these words are not necessarily populist in isolation, their combined meaning cuts through a broad range of populist key messages [@blassnig2019HittingNerve, p. 638]. This short dictionary is sensitive to the context of COVID-19 but should be able to capture populism in other contexts as well.
 
 ```{=latex}
 {
@@ -224,7 +224,7 @@ The dictionary that maximized F1 best across all countries is presented in Table
 \end{spacing} 
 }
 ```
-The DDR measurement performs well overall (F1=.74) and is relatively consistent across countries. It outperforms Gründl’s [-@grundl2022PopulistIdeas] dictionary, which reached a low F1 of .19. Against this backdrop, I consider this measurement a satisfactory proxy for populism. However, the output-validity scores vary across countries, with the lowest test-performance for the Netherlands (F1=.66), indicating a lack of equivalence and measurement error differential to language. I account for this by centering the populism scores on the country-level means. In the concluding section I discuss the limitations of this approach.
+The DDR measurement performs well overall (F1=.74) and is relatively consistent across countries. It outperforms Gründl's [-@grundl2022PopulistIdeas] dictionary, which reached a low F1 of .19. Against this backdrop, I consider this measurement a satisfactory proxy for populism. However, the output-validity scores vary across countries, with the lowest test-performance for the Netherlands (F1=.66), indicating a lack of equivalence and measurement error differential to language. I account for this by centering the populism scores on the country-level means. In the concluding section I discuss the limitations of this approach.
 
 The DDR measure was applied to the dataset of translated comments. Titles of hyperlinks were used when comments contained no other text. Text cleaning is documented in Appendix B. I replaced n=19,047 missing values (0.6%) by the mean populism score per page and week to not lose observations. The comment-level scores were aggregated per post as mean, reflecting the manifestation of a collective populist voice [@galpin2019ParticipatoryPopulism], standardized, and centered to country-mean.
 
@@ -265,7 +265,7 @@ Experts         & .76 & .88 &   .82 &   .86 &   .85 &   .81 &   .86 &   .87 \\
 \end{spacing}
 }
 ```
-*Moderation* was operationalized as a binary variable, indicating if a post’s comments section included a comment from the news media account operating the Facebook page, which was not anonymized by the API. *Media type* is indicated by a categorical variable.
+*Moderation* was operationalized as a binary variable, indicating if a post's comments section included a comment from the news media account operating the Facebook page, which was not anonymized by the API. *Media type* is indicated by a categorical variable.
 
 For the *stringency* of COVID-19 policies, this study uses the index from the *Oxford COVID Response Tracker (OxCRT)* [@hale2020OxfordCOVID19], which is provided in country-day format. The index is composed of nine ordinal indicators and ranges from 0 to 100, indicating restrictive policies by larger values.
 
@@ -338,13 +338,13 @@ Accounting for both, the models were fitted in a Bayesian framework, using the *
 ```
 ## Results
 
-Table 5 reports the results from the linear multilevel Bayesian regression models with the mean populism score per post as the dependent variable. H1 proposed that posts mentioning the *government* are associated with higher levels of populism in the comments section. The parameter .49 for *government* in Model 1 marks the median of the estimated posterior distribution. All else being equal, the aggregated populism score is estimated to increase by .49 standard deviations when a post mentions the government. The credible interval (CI) indicates that 95% of the posterior draws for that parameter lie between 0.47 and 0.51. Figure 2 plots the posterior distributions of the variables in Model 1, showing that *government* has the strongest positive effect. As its 95% highest density interval (HDI), here identical with the CI, excludes zero, the null hypothesis is rejected and H1 supported. Similarly, in support of H2, mentioning *experts* has a large (.13), positive effect, with a CI excluding zero \[.11–.15\].
+Table 5 reports the results from the linear multilevel Bayesian regression models with the mean populism score per post as the dependent variable. H1 proposed that posts mentioning the *government* are associated with higher levels of populism in the comments section. The parameter .49 for *government* in Model 1 marks the median of the estimated posterior distribution. All else being equal, the aggregated populism score is estimated to increase by .49 standard deviations when a post mentions the government. The credible interval (CI) indicates that 95% of the posterior draws for that parameter lie between 0.47 and 0.51. Figure 2 plots the posterior distributions of the variables in Model 1, showing that *government* has the strongest positive effect. As its 95% highest density interval (HDI), here identical with the CI, excludes zero, the null hypothesis is rejected and H1 supported. Similarly, in support of H2, mentioning *experts* has a large (.13), positive effect, with a CI excluding zero \[.11--.15\].
 
-RQ1 asked for the impact of *moderating comments* on user-generated populism. Model 1 shows that this relationship is negative (-.13, \[-.16 – -.09\]). Comments sections including comments from the media outlet itself were less populist. Somewhat surprisingly, *media type tabloid* is negatively associated with populism (RQ2). Compared to the reference category, *quality media*, comments sections on Facebook pages of tabloids received -.37 \[-.55 – -.17\] less populist comments. Public broadcasters did not receive significantly more populist comments than the quality press, as the CI \[-.09–.29\] includes zero.
+RQ1 asked for the impact of *moderating comments* on user-generated populism. Model 1 shows that this relationship is negative (-.13, \[-.16 -- -.09\]). Comments sections including comments from the media outlet itself were less populist. Somewhat surprisingly, *media type tabloid* is negatively associated with populism (RQ2). Compared to the reference category, *quality media*, comments sections on Facebook pages of tabloids received -.37 \[-.55 -- -.17\] less populist comments. Public broadcasters did not receive significantly more populist comments than the quality press, as the CI \[-.09--.29\] includes zero.
 
-The COVID-19 specific predictors in Model 1 show that posts mentioning *COVID-19* were associated with .17 \[.15 – .19\] higher levels of populism in comments than other posts. This was the second-largest positive effect in the model, as shown in Figure 1. Posts explicitly mentioning *restrictions*, a sub-category of COVID-19 posts, were associated with .06 \[.04–.09\] more populist comments. These findings support H3 and H4.
+The COVID-19 specific predictors in Model 1 show that posts mentioning *COVID-19* were associated with .17 \[.15 -- .19\] higher levels of populism in comments than other posts. This was the second-largest positive effect in the model, as shown in Figure 1. Posts explicitly mentioning *restrictions*, a sub-category of COVID-19 posts, were associated with .06 \[.04--.09\] more populist comments. These findings support H3 and H4.
 
-The effects of time were in accordance with expectations (H6 and H7). With each *day since the outbreak*, the level of populism in comments increased by .02 \[.00–.04\]. The negative effect of the predictor *first wave* was pronounced, indicating that comments sections below posts published during the first wave of COVID-19 were .17 \[-.20 – -.14\] SD less populist than comments sections of later posts.
+The effects of time were in accordance with expectations (H6 and H7). With each *day since the outbreak*, the level of populism in comments increased by .02 \[.00--.04\]. The negative effect of the predictor *first wave* was pronounced, indicating that comments sections below posts published during the first wave of COVID-19 were .17 \[-.20 -- -.14\] SD less populist than comments sections of later posts.
 
 The main effect of *stringency* in COVID-19 policies was positive but very small (.03). Its credible interval \[.02-.04\] in Model 1 excludes zero but barely so. In Model 2 and Model 3, the CI includes zero. These models explore the conditions under which stringency had a positive impact more closely.
 
@@ -428,7 +428,7 @@ Before moving on, the random effects of Model 1 should be noted. The within-grou
 
 Model 2 functions as intermediate step and adds the interaction term *COVID-19\*Stringency.* To reduce model complexity, the insignificant control variables *fan count, incidence*, and *download age* were dropped, as well as the variable *restrictions,* which is not independent of *COVID-19*. The positive and significant coefficient for the interaction term *COVID-19\*Stringency* suggests an interplay between mentioning COVID-19 and the restrictiveness of policies, as expected in H5. However, the main effect of stringency diminished.
 
-To explore this pattern from a comparative perspective across countries, and to answer RQ3, Model 3 estimates random slopes (i.e., varying effects) for *COVID-19, stringency,* and their interaction *COVID-19\*Stringency* by *country*. The random slopes variance (tau~11~=.01) of Model 3 is larger than zero. While the CI of both *stringency* and the term *COVID-19\*Stringency* now include zero, a substantive effect of stringency can be found for specific countries. Figure 3 plots the distribution of the posterior predictions of populism on the y-axis, conditional on the level of stringency (x-axis and color) for each country. For this prediction, mentioning *COVID-19* was set to “true,” *media type* was set to “quality” and all other variables were held at mean, respectively zero. Uncertainty from the page level was accounted for.
+To explore this pattern from a comparative perspective across countries, and to answer RQ3, Model 3 estimates random slopes (i.e., varying effects) for *COVID-19, stringency,* and their interaction *COVID-19\*Stringency* by *country*. The random slopes variance (tau~11~=.01) of Model 3 is larger than zero. While the CI of both *stringency* and the term *COVID-19\*Stringency* now include zero, a substantive effect of stringency can be found for specific countries. Figure 3 plots the distribution of the posterior predictions of populism on the y-axis, conditional on the level of stringency (x-axis and color) for each country. For this prediction, mentioning *COVID-19* was set to "true," *media type* was set to "quality" and all other variables were held at mean, respectively zero. Uncertainty from the page level was accounted for.
 
 Figure 3 visualizes three things: The colored half-eye plots show the distribution of the predicted level of populism when stringency is at its minimum (yellow) and its maximum (purple) per country. The black dot marks the median, the thick bar the 80% CI, and the thin bar the 89% CI of this distribution. The layering thin lines illustrate the estimated relationship on 300 draws.
 
@@ -438,25 +438,25 @@ The plot shows that *stringency* had a positive effect in Austria, Germany, and 
 
 ## Discussion and Conclusions
 
-This study analyzed how the COVID-19 crisis and media-related factors shaped the levels of populism in user comments on news media Facebook pages in seven European countries. It revealed several noteworthy findings. First, Facebook posts mentioning *COVID-19* and *restrictive containment policies* were associated with higher levels of populism in comments, compared to other posts. These findings provide circumstantial evidence for the argument that media coverage on COVID-19 motivated some users to express populist ideas by triggering reactance and activating populist attitudes. COVID-19 was an issue that mobilized populist protests not only on the streets [@brubaker2021ParadoxesPopulism] but also online. Populism in comments also increased considerably after the first wave of COVID-19, adding behavioral evidence to the finding of a “pandemic fatigue” which has fueled populist attitudes over time [@jorgensen2022PandemicFatigue]. The findings largely confirm previous findings for Germany and Austria [@thiele2022PandemicPopulism] and align with psychological research showing that novel messages spark less reactance [@rosenberg201850YearReview].
+This study analyzed how the COVID-19 crisis and media-related factors shaped the levels of populism in user comments on news media Facebook pages in seven European countries. It revealed several noteworthy findings. First, Facebook posts mentioning *COVID-19* and *restrictive containment policies* were associated with higher levels of populism in comments, compared to other posts. These findings provide circumstantial evidence for the argument that media coverage on COVID-19 motivated some users to express populist ideas by triggering reactance and activating populist attitudes. COVID-19 was an issue that mobilized populist protests not only on the streets [@brubaker2021ParadoxesPopulism] but also online. Populism in comments also increased considerably after the first wave of COVID-19, adding behavioral evidence to the finding of a "pandemic fatigue" which has fueled populist attitudes over time [@jorgensen2022PandemicFatigue]. The findings largely confirm previous findings for Germany and Austria [@thiele2022PandemicPopulism] and align with psychological research showing that novel messages spark less reactance [@rosenberg201850YearReview].
 
 Second, this study found that the *stringency* of COVID-19 policies had a varying impact on populism in comments across countries. At the population level, the effect was mainly cancelled out by diverging effects across countries. A comparative analysis found a limited positive effect of containment policy stringency for Austria, Germany, and the Netherlands. In these countries, stricter COVID-19 containment policies were echoed by more populism in comments, when the post mentioned COVID-19. The question is why this relationship was not observed in all countries. In Sweden, the laissez-faire containment policies may have prevented populist discontent [@gordon2021CrosscountryEffects]. In Italy, the shock of the devastating first wave might have increased acceptance of stringent policies. Finding ad-hoc explanations for France and the United Kingdom is difficult. Future research should investigate these differences by taking governmental communication strategies and strategies of grassroots mobilization [@neumayer2023ProtestCovid19] into account.
 
 Third, mentioning elite representatives was found to have triggered populism. Mentioning the government had the strongest effect on populism in comments, replicating a previous finding [@thiele2022PandemicPopulism]. Different from my previous findings [@thiele2022PandemicPopulism], posts mentioning experts were here found to be associated with more populism. These different findings can be driven by differences in the sample as well as by different operationalizations. This finding also shows that science-related populism [@mede2020SciencerelatedPopulism] is an important aspect of user-generated populism. Overall, the study shows that the level of populism in comments is highly responsive to the content and context of posts. This finding contributes to the plausibility of the argument that populist comments are expressions of populist attitudes [@blassnig2019HittingNerve], that are activated by message characteristics [@kramer2014MediaPopulism] and context [@hawkins2020ActivationPopulist]. Additional research is needed, however, to investigate the presumed mechanisms directly.
 
-Fourth, my findings did not corroborate the existence of a “complicity” between the tabloid press and populism [@mazzoleni2008PopulismMedia, p. 50] on the level of user comments. Tabloid outlets received the lowest levels of populism in comments. However, this does not necessarily imply that readers of tabloids are less populist [@schulz2019WherePopulist]. Populist users may deliberately visit the pages of quality press and public service broadcasters to express discontent because they regard these to be part of the establishment [@engesser2017PopulismSocial]. Fifth, this study found that comments authored by the media page itself lowered the levels of populism. This finding is indirect support for the effectiveness of visible moderation [@gibson2019FreeSpeech].
+Fourth, my findings did not corroborate the existence of a "complicity" between the tabloid press and populism [@mazzoleni2008PopulismMedia, p. 50] on the level of user comments. Tabloid outlets received the lowest levels of populism in comments. However, this does not necessarily imply that readers of tabloids are less populist [@schulz2019WherePopulist]. Populist users may deliberately visit the pages of quality press and public service broadcasters to express discontent because they regard these to be part of the establishment [@engesser2017PopulismSocial]. Fifth, this study found that comments authored by the media page itself lowered the levels of populism. This finding is indirect support for the effectiveness of visible moderation [@gibson2019FreeSpeech].
 
-This study has implications beyond the context of COVID-19. Contributing to a more comprehensive understanding of citizen-generated populist communication, the study identified factors influencing populism in comments that may hold in other contexts—mentioning elites, moderation, and media type. Moreover, the lessons learned during COVID-19 can be projected onto other contexts concerning science-related populism [@mede2020SciencerelatedPopulism]. The debates surrounding climate change resemble the COVID-19 crisis in crucial aspects: Climate change communication tries to convince people to comply with restrictive policies that are necessary to avert a global threat [@nabi2018FramingClimate]. This aim is similarly challenged by citizens’ reactance [@ma2019PsychologicalReactance] and populist online behavior [@yan2022ThereLink]. Drawing on the findings here, one could expect that climate change coverage similarly attracts populist comments. Building on the country-specific relation between policy stringency and populism found here, policymakers could be cautiously optimistic that governance can shape the level of populist discontent expressed online. More research is needed, however, to substantiate these claims and investigate the role of governmental communication more thoroughly. Finally, newsrooms worried about the harmful effects of populist user comments can feel encouraged that visibly moderating their comments sections can have a beneficial impact.
+This study has implications beyond the context of COVID-19. Contributing to a more comprehensive understanding of citizen-generated populist communication, the study identified factors influencing populism in comments that may hold in other contexts---mentioning elites, moderation, and media type. Moreover, the lessons learned during COVID-19 can be projected onto other contexts concerning science-related populism [@mede2020SciencerelatedPopulism]. The debates surrounding climate change resemble the COVID-19 crisis in crucial aspects: Climate change communication tries to convince people to comply with restrictive policies that are necessary to avert a global threat [@nabi2018FramingClimate]. This aim is similarly challenged by citizens' reactance [@ma2019PsychologicalReactance] and populist online behavior [@yan2022ThereLink]. Drawing on the findings here, one could expect that climate change coverage similarly attracts populist comments. Building on the country-specific relation between policy stringency and populism found here, policymakers could be cautiously optimistic that governance can shape the level of populist discontent expressed online. More research is needed, however, to substantiate these claims and investigate the role of governmental communication more thoroughly. Finally, newsrooms worried about the harmful effects of populist user comments can feel encouraged that visibly moderating their comments sections can have a beneficial impact.
 
-Methodologically, this study contributed to the field of computational communication science by demonstrating the usefulness of the DDR technique [@garten2018DictionariesDistributions] for capturing ideological content. The strengths of this method are that it provides a theory-driven, and interpretable measurement [@garten2018DictionariesDistributions, p. 351], as the core of the measured concept can be gleaned from keywords. At the same time, it is more flexible than conventional dictionaries by leveraging the potential of word embeddings. The advantage of word embeddings over transformers and large language models is that training on a custom corpus can be performed on a local machine and is computationally relatively inexpensive. This study has also contributed to the growing field of multilingual computational text analysis [@licht2023GoingCrosslingual] by demonstrating the usefulness – and limitations – of a full-text machine translation approach. Future research can build on these experiences.
+Methodologically, this study contributed to the field of computational communication science by demonstrating the usefulness of the DDR technique [@garten2018DictionariesDistributions] for capturing ideological content. The strengths of this method are that it provides a theory-driven, and interpretable measurement [@garten2018DictionariesDistributions, p. 351], as the core of the measured concept can be gleaned from keywords. At the same time, it is more flexible than conventional dictionaries by leveraging the potential of word embeddings. The advantage of word embeddings over transformers and large language models is that training on a custom corpus can be performed on a local machine and is computationally relatively inexpensive. This study has also contributed to the growing field of multilingual computational text analysis [@licht2023GoingCrosslingual] by demonstrating the usefulness -- and limitations -- of a full-text machine translation approach. Future research can build on these experiences.
 
 ## Limitations
 
-This study has limitations. First, validating the populism score revealed imperfect measurement equivalence and potential measurement error differential to language. Such error can cause bias in regressions [@teblunthuis2023MisclassificationAutomated] and is of particular concern for the cross-country comparison. TeBlunthuis et al. [-@teblunthuis2023MisclassificationAutomated] recently introduced a correction for misclassification error in regression analyses. Here, implementing this correction was not possible as the manually annotated data only provides a binary indicator of populism, not its “true” continuous value. The problem was approached here by centering the populism score on the country mean, assuming that focusing on within-country variance improves comparability. As this builds on strong assumptions, the results of the country comparison must be taken with a grain of salt. Another problem is that measurement error inflicted by translation could not be discerned from error induced by country-specific discourse. Future computational text analyses should annotate validation data on the same scale as the automated measurement to enable error correction. Continuous measurements could be validated against aggregated scores of multiple annotators, to circumvent the challenge of producing reliable continuous annotations [@grimmer2013TextData, p. 275]. Second, machine translation is one strategy for aligning the input of multilingual computational text analyses [@licht2023GoingCrosslingual] that is not free of problems. In addition to the imperfect measurement equivalence observed discussed above, commercial translation APIs pose challenges for replicating findings, as they change, are non-transparent, and are expensive. Local implementations or multilingual embeddings are alternatives that should be considered. Finally, this study did not test individual-level mechanisms directly, as the anonymized digital trace data does not provide observations on this level. Future research is encouraged to test the claims of this study using experimental research designs.
+This study has limitations. First, validating the populism score revealed imperfect measurement equivalence and potential measurement error differential to language. Such error can cause bias in regressions [@teblunthuis2023MisclassificationAutomated] and is of particular concern for the cross-country comparison. TeBlunthuis et al. [-@teblunthuis2023MisclassificationAutomated] recently introduced a correction for misclassification error in regression analyses. Here, implementing this correction was not possible as the manually annotated data only provides a binary indicator of populism, not its "true" continuous value. The problem was approached here by centering the populism score on the country mean, assuming that focusing on within-country variance improves comparability. As this builds on strong assumptions, the results of the country comparison must be taken with a grain of salt. Another problem is that measurement error inflicted by translation could not be discerned from error induced by country-specific discourse. Future computational text analyses should annotate validation data on the same scale as the automated measurement to enable error correction. Continuous measurements could be validated against aggregated scores of multiple annotators, to circumvent the challenge of producing reliable continuous annotations [@grimmer2013TextData, p. 275]. Second, machine translation is one strategy for aligning the input of multilingual computational text analyses [@licht2023GoingCrosslingual] that is not free of problems. In addition to the imperfect measurement equivalence observed discussed above, commercial translation APIs pose challenges for replicating findings, as they change, are non-transparent, and are expensive. Local implementations or multilingual embeddings are alternatives that should be considered. Finally, this study did not test individual-level mechanisms directly, as the anonymized digital trace data does not provide observations on this level. Future research is encouraged to test the claims of this study using experimental research designs.
 
 ## Additional materials
 
-The dictvectoR package [@thiele2022ThieledDictvectoR] is available on GitHub. Replication code and data is provided here: https://osf.io/d4qng/
+The appendix is available online: <https://osf.io/upfrv>. Replication code and data is provided here: <https://osf.io/d4qng/>. The dictvectoR package [@thiele2022ThieledDictvectoR] is available on GitHub: <https://github.com/thieled/dictvectoR>.
 
 ## Declaration of Conflicting Interests
 
@@ -470,982 +470,3 @@ This research was supported by the Kaiserschild Foundation, the Austrian Federal
 
 ::: {#refs}
 :::
-
-```{=latex}
-\newpage
-\appendix
-\renewcommand{\thefigure}{A\arabic{figure}}
-\renewcommand{\thetable}{A\arabic{table}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-```
-## Appendix A {.appendix}
-
-### Coding Instructions {.appendix}
-
-Here, I document an abridged version of the coding instructions for annotating the validation data. Comments were coded along the binary variables *people-centrism* and *anti-elitism,* covering key messages of populist communication. The coding instructions for populism align with the codebook developed by Blassnig et al. [-@blassnig2016CodebookPopulist; -@blassnig2019HittingNerve] and have been used in part in my previous studies [@thiele2022PandemicPopulism; @thiele2022HowRightWing].
-
-At the post level, coders assigned binary values for the presence of references to the *government*, *experts*, *COVID-19*, *COVID-19 policies*, and *easing of COVID-19 policies.* The last two variables were used to construct the variable references to *COVID-19 policy restrictions*.
-
-Holistic grading was employed for coding comments and posts, i.e. the complete post or comment was considered in assigning codes. Coders were presented with general coding instructions, adopted from Blassnig et al. [-@blassnig2016CodebookPopulist, p. 1]: “Only code explicit statements. Implications, hints, and context knowledge must not be coded. If in doubt, don’t code it. If you have to ask yourself whether a statement is explicit enough to code it, it is not. \[…\] Hypothetical statements are coded. Statements that are future-oriented or in subjunctive mood are coded as normal statements. Hypothetical does not mean implicit.” The general instructions additionally clarified that the categories are not mutually exclusive, addressed the handling of missing values, and explained the filter variables.
-
-### Post-Level Variables {.appendix}
-
-```{=latex}
-{
-\begin{spacing}{1}
-\fontsize{8}{9}\selectfont 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{.14\linewidth}
-  >{\raggedright\arraybackslash}p{.62\linewidth}
-  >{\raggedright\arraybackslash}p{.13\linewidth}@{}}
-\caption{Coding Instructions for Posts} \\
-\toprule\noalign{}
-\textbf{Construct} & \textbf{Instructions} & \textbf{Codes} \\
-\midrule\noalign{}
-\endhead
-\endlastfoot
-\emph{Topic:} COVID-19 mentioned & 
-\emph{Question:} \newline Does the post mention the topic of COVID-19? \newline \newline
-\emph{Instructions:} \newline Please code “1” if the coded text refers in some form to the COVID-19 virus, or any aspect of the COVID-19 pandemic, including any governmental, societal, or scientific response to, or consequence of, the COVID-19 crisis. 
-& 
-0: not present \newline
-1: present
-\\
-\emph{Subtopic:} \newline
-COVID-19 policies
-&
-\emph{FILTER:  If “covid” = “0”, this category is  “0”. \newline If “covid” = “1”, please code:} \newline \newline 
-\emph{Question:} \newline Does the post mention any authorities’ measure responding to the COVID-19 crisis? \newline \newline
-\emph{Definitions:} \newline
-“Authorities” here mean all levels of government, whether national, regional, local, or supra-national, all public service agencies, all public health advisory boards or councils (e.g., the RKI in Germany, the RIVM in Netherlands, the Folkhälsomyndigheten in Sweden etc.), and local institutions such as schools or hospitals. \newline
-& 
-0: not present \newline
-1: present
-\\
-&
-"COVID-19 measures" include, but are not limited to, measures directed at public health (e.g., social distancing, masks, quarantine, hygienic rules), including testing for COVID-19 or vaccinations; restrictive measures (e.g., closing of schools, restaurants, lockdowns, measures limiting social contacts); contact tracing; travel restrictions and specific border policies; policies that ease COVID-19 restrictions; policies that react on economic or social challenges related to the COVID-19 crisis. References to the general COVID-crisis management of authorities are also considerd as ‘COVID-19 policies’ here. \newline
-& 
-\\
-&
-\emph{Instructions:} \newline Please code “1” if the coded text refers in some form to any measure of authorities that is a response to the COVID-19 crisis – whether directed at public health or other aspects of the crisis. 
-& 
-\\
-\emph{Subtopic:}
-Easing COVID-19 policies
-&
-\emph{FILTER:  If “covid policy” = “0”, this category is  “0”. \newline 
-If “covid policy” = “1”, please code:} \newline \newline 
-\emph{Question:} \newline Does the post mention any easing of restrictive COVID-19 policies, or policies that offer economic support? \newline \newline
-\emph{Instructions:} \newline Please code “1” if the coded text refers in some form to easing restrictive measures (e.g., mentions of lifting lockdowns, lifting obligatory mask wearing, lifting travel bans, lifting restrictions to enter public events); or measures intended to cushion economic or social hardships induced by the COVID-19 crisis (e.g., emergency funds, helplines). \newline
-& 
-0: not present \newline
-1: present
-\\ 
-\emph{Actors:}
-Government
-&
-\emph{Question:} \newline Does the post mention the current national government of the country in question or the European Commission? \newline \newline
-\emph{Definitions:} \newline
-The “government” here exclusively refers to the incumbent (at the time of the post) head of government (e.g., Prime Minister, Chancellor, in France: including the President), the ministers of his or her cabinet, the government as a whole, and the European Commission. 
-\newline
-& 
-0: not present \newline
-1: present
-\\ 
-& 
-Mentioning the head of state (only exception: “the President” in France); parliamentarians who are not part of the cabinet; public advisory boards; regional or local governing bodies; foreign governments; or former governments do not count as ‘the government’ here. \newline
-&
-\\
-&
-\emph{Instructions:} \newline
-Please code “1” if the coded text refers to the head of the current national government of the respective country at the time of the post – referred to by either his or her name or office; any minister of the (federal) government of the respective country at that time – referred to by either his or her name or office; the government as a whole; the head or any member of the European Commission at that time; the European Commission as a whole. 
-\newline \newline 
-\emph{Note: A list of names, official titles and incumbents was provided to the coders.}
-&
-\\
-\emph{Actors:}
-Experts
-&
-\emph{Question:} \newline Does the post mention experts? \newline \newline
-\emph{Definitions:} \newline An “expert” here is understood as someone who has acquired profound knowledge in a specific field through academic education or research. We consider experts from any field of knowledge, whether public health related or not. Persons who have acquired profound experience through practice but without academic education are not considered experts here (e.g., general healthcare professionals). References to the output or field of study of those experts, as well as references to public research institutions is considered as mentioning experts. Explicit references to “experts” do count. 
-& 
-0: not present \newline
-1: present
-\\ 
-&
-References to private research institutions (e.g., BioNTech, Pfizer) is not sufficient to be counted as mentioning “experts” here. If the post refers explicitly to the researchers active in, or research conducted at, those institutions this counts as mentioning experts. \newline
-&
-\\
-&
-\emph{Instructions:} \newline
-Please code “1” if the coded text refers to anyone explicitly as “expert”, or “specialist”; to any researchers – either in general terms (e.g., “researcher”, “scientist”), by indicating their area of expertise (e.g., “virologist”, “psychologist”, “virology”, “psychology”), or by indicating their academic profession (e.g., “professor XY”); research in general (e.g., “research”, “a study”, “science”); any public, academic research institution (e.g., “university XY”, “institute XY”); other public health experts with an academic backgroud (e.g. physicians or doctors).  
-Please note that mentioning general healthcare professionals of hospitals does not count as reference to experts here.
-&
-\\
-\midrule\noalign{}
-\end{longtable}
-\end{spacing}
-}
-```
-### Comment-Level Variables {.appendix}
-
-```{=latex}
-{
-\begin{spacing}{1}
-\fontsize{8}{9}\selectfont 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{.14\linewidth}
-  >{\raggedright\arraybackslash}p{.62\linewidth}
-  >{\raggedright\arraybackslash}p{.13\linewidth}@{}}
-\caption{Coding Instructions for Comments} \\
-\toprule\noalign{}
-\textbf{Construct} & \textbf{Instructions} & \textbf{Codes} \\
-\midrule\noalign{}
-\endhead
-\endlastfoot
-People-centrism & 
-\emph{Question:} \newline Does the comment invoke the people or demand sovereignty for the people? (Aslanidis, 2018, 1255) \newline \newline
-\emph{Definitions:} \newline People-centrism is one core dimension of populist communication. It is defined here as an ideological discourse that invokes ‘the people’ (Aslanidis 2018, 1255). It values ‘the people’ as something positive or worth protecting, constructs it as an in-group, i.e., as a group to which the author of the text belongs to, and/or suggests that ‘the people’ are the “rightful political sovereign within a given polity” (Aslanidis 2018, 1255).
-& 
-0: not present \newline
-1: present
-\\
-& ‘The people’ are defined as the “overwhelming majority” (Aslanidis 2018, 1255) of the “population of a country” or polity that is assumed to “share a common origin or culture” (Blassnig et al. 2016, 14). “The people may be regarded as nation, ethnos, demos, class, or strata” (Blassnig et al. 2016, 14). It is essential that the commenter regards himself or herself as part of the people and values the people. The people may be addressed directly (“the people”, “the Austrian population”), “as a metaphor (‘man on the street’, ‘the common man’), or as a subgroup that is regarded as representing” (Blassnig et al. 2016, 14) the overwhelming majority (‘the hardworking people’, ‘voters’, ‘we taxpayers’). & 
-\\
-&
-\emph{Instructions:} \newline
-Please code “1”, if the coded text refers to ‘the people’ in one of the ways described above and is characterized by at least one of the following aspects: \newline
-&
-\\
-&
-\begin{itemize}
-\item The people are attributed with virtues and positive traits. For example, the people may be described as good, honest, hard-working, modest, moral, credible, intelligent, competent, consistent, considerate, benevolent, or similar (Blassnig et al., 2016 , 17). (e.g., “every normal citizen knows about this madness”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}
-\item The people are seen as responsible for positive developments, events, or situations (Blassnig et al. 2016, 17). (e.g., “I am glad to be a tiny part of this. A lot of work and sweat has built this country and made it what it is now.”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item The people are described as a homogeneous group: The “people is seen as sharing a common understanding of the world, common feelings [...], common opinions [...], or a common will [...].  (e.g., ‘The voters want immigration controlled, they declared that loud and clear.’)” (Blassnig et al. 2016, 18).
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item The people are constructed as a collective of victims, that suffers from elite actions, or external threats, or needs to be protected (Hameleers, 2019). (e.g.: “Who is protecting us????”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item The comment demands to listen to the people’s will, or addresses the people to wake up, or to stand up for their will (Blassnig et al. 2016, 20) (e.g., “let’s unite and take the streets! together we can make a difference!”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item The comment criticizes institutions or elites for not reflecting the people’s will, for deceiving or silencing the vast majority. (e.g.: “The people will not be deceived any longer by this clown.”)
-\end{itemize}
-&
-\\
-Anti-elitism & 
-\emph{Question:} \newline Does the comment discredit or blame the elite or suggest that the elite is detached from the people? (Blassnig et al. 2016, 18–19) \newline \newline
-\emph{Definitions:} \newline Anti-elitism is the second core dimension of populist communication. It is defined as “references against a slim minority of unaccountable power holders [that allegedly engage] [...] in the misappropriation of popular sovereignty” (Aslanidis 2018, 1255). It constructs ‘the elite’ as the antagonist of ‘the people’, which illegitimately rules and deceives the latter (Mudde 2004, 543).
-& 
-0: not present \newline
-1: present
-\\
-& 
-‘The elite’ is defined as minority groups of power holders within a society that are (assumed to be) powerful and influential because of its “political power, wealth, or privilege” (Blassnig et al. 2016, 14). Not the factual power is decisive, but the assumption of such power in the coded text. Elites “can be allocated to the areas of politics, administration, economy, law, media, science, and culture” (Blassnig et al. 2016, 14). “The elite may either be addressed in general terms [(e.g., ‘those above’, ‘politicians’, ‘the rich’, ‘the media’)] or specific members [or institutional representatives] of the elite may be addressed by name” (Blassnig et al. 2016, 14) or nickname (e.g., “Wall Street”, “Brussels”, “Soros”).
-& 
-\\
-&
-\emph{Instructions:} \newline
-Please code “1”, if the coded text refers to ‘the elite’ in some of the ways described above and is characterized by at least one of the following aspects: \newline
-&
-\\
-&
-\begin{itemize}
-\item Elites are discredited or denounced: “Negative personality traits, mistakes, and unlawful or immoral behavior of the elites are stressed. The elites [...] are portrayed as corrupt, evil, incapable, malevolent, [mendacious], criminal, lazy, stupid, undemocratic [or in any other similar negative way]. The elites or its representatives are denied of morality, charisma, credibility, intelligence, competence, consistency etc.” (Blassnig et al. 2016, 18) (e.g., “It is minister Mikl Leitner who, apart from incompetence, only attracts attention with embarrassing statements.”; “Down with this sell-out government!”) \newline
-\emph{Caution:} If a text criticizes elites in a balanced way, without suggesting a fundamental or moral degeneracy of the elite or the established system it is not considered anti-elitist. 
-\end{itemize}
-\\
-&
-\begin{itemize}\item Elites are blamed for fundamentally negative developments or situations: elites are held responsible for undesirable situations that are depicted as serious harm for the society (Blassnig et al. 2016, 18). (e.g., “Our politicians have managed to make Austria an unsafe country. The politicians who are responsible should be locked up”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item Elites are depicted as detached from the people, unaccountable to the people’s will, or manipulating the people: The elite is described as “not being close to the people, not knowing the people and their needs, not speaking for the people, [...] not listening to the people,” (Blassnig et al. 2016, 19) not representing the people, betraying or deceiving the people, lying to the people, manipulating the public opinion, or as being distanced from the people in any other way (Blassnig et al. 2016, 19–20). (e.g., “when will our so-called representatives of the people finally open their eyes”; “The politicians do not listen to us”)
-\end{itemize}
-&
-\\
-&
-\begin{itemize}\item Elites are denied sovereignty. “The speaker argues in favor of granting less power to the” or some elites (Blassnig et al. 2016, 21). (e.g., “I hope that the EU breaks apart so that Austria can finally close the borders!)
-\end{itemize}
-&
-\\
-\midrule\noalign{}
-\end{longtable}
-\end{spacing}
-}
-```
-```{=latex}
-\newpage
-\renewcommand{\thefigure}{B\arabic{figure}}
-\renewcommand{\thetable}{B\arabic{table}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-```
-## Appendix B {.appendix}
-
-### Text Cleaning and Preprocessing {.appendix}
-
-Text was cleaned and preprocessed for the tasks: (a) translation, (b) training the *fastText* model, (c) measurement development, (d) application of the post-level dictionaries, and (e) application of the DDR measurements. For most tasks, text was lowercased, punctuation, hyperlinks, and stop-words were removed, numbers, emojis and emoticons were replaced by words. Stop-words were defined following the German *nltk* list, with the exception of the following words that were considered to function as in- and out-group marker in populist discourse or convey other important meaning: *alle\*, diese\*, die, das, einige\*, euer\*, eur\*, uns\*, keine\*, mein\*, nicht\*, solche\*, sie, sich, nur, wieder, selbst, manche\*, seine\*, wir*. Emojis were manually assigned by the author to four broad emotion categories joy, anger, fear, and other. Table B1 documents all replaced emojis and other special characters.
-
-Text cleaning was applied as consistently as possible in all steps of the analysis, with some exceptions. These exceptions are: (a) For translation, text was not lowercased, punctuation only simplified, emojis replaced after translation, and text truncated to 540 characters; (b) For training the *fastText* model, no stop-words were removed, text was tokenized into sentences and shuffled, duplicates and comments with less than 5 words were removed; (c) For applying the case-sensitive dictionary for government representatives on post level, text was not lowercased to capture names correctly.
-
-```{=latex}
-{
-\begin{spacing}{.9}
-\fontsize{7}{8}\selectfont 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{0.3}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{0.3}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{0.2}}@{}}
-\caption{Replaced emojis and special characters.} \\
-\toprule\noalign{}
-\textbf{Unicode} & \textbf{Concept} & \textbf{Replacement} \\
-\midrule\noalign{}
-\endhead
-\endlastfoot  
-\textbackslash\textbackslash U0000270A & anger & ~wut \\
-\textbackslash\textbackslash U0001f44A & anger & ~wut \\
-\textbackslash\textbackslash U0001f44E & anger & ~wut \\
-\textbackslash\textbackslash U0001f47f & anger & ~wut \\
-\textbackslash\textbackslash U0001f4A2 & anger & ~wut \\
-\textbackslash\textbackslash U0001f4A3 & anger & ~wut \\
-\textbackslash\textbackslash U0001f4A9 & anger & ~wut \\
-\textbackslash\textbackslash U0001f595 & anger & ~wut \\
-\textbackslash\textbackslash U0001f608 & anger & ~wut \\
-\textbackslash\textbackslash U0001f60F & anger & ~wut \\
-\textbackslash\textbackslash U0001f611 & anger & ~wut \\
-\textbackslash\textbackslash U0001f612 & anger & ~wut \\
-\textbackslash\textbackslash U0001f613 & anger & ~wut \\
-\textbackslash\textbackslash U0001f614 & anger & ~wut \\
-\textbackslash\textbackslash U0001f616 & anger & ~wut \\
-\textbackslash\textbackslash U0001f61B & anger & ~wut \\
-\textbackslash\textbackslash U0001f61C & anger & ~wut \\
-\textbackslash\textbackslash U0001f61D & anger & ~wut \\
-\textbackslash\textbackslash U0001f620 & anger & ~wut \\
-\textbackslash\textbackslash U0001f621 & anger & ~wut \\
-\textbackslash\textbackslash U0001f623 & anger & ~wut \\
-\textbackslash\textbackslash U0001f624 & anger & ~wut \\
-\textbackslash\textbackslash U0001f63E & anger & ~wut \\
-\textbackslash\textbackslash U0001f644 & anger & ~wut \\
-\textbackslash\textbackslash U0001f645 & anger & ~wut \\
-\textbackslash\textbackslash U0001f910 & anger & ~wut \\
-\textbackslash\textbackslash U0001f914 & anger & ~wut \\
-\textbackslash\textbackslash U0001f91B & anger & ~wut \\
-\textbackslash\textbackslash U0001f91C & anger & ~wut \\
-\textbackslash\textbackslash U0001f922 & anger & ~wut \\
-\textbackslash\textbackslash U0001f925 & anger & ~wut \\
-\textbackslash\textbackslash U0001f926 & anger & ~wut \\
-\textbackslash\textbackslash U0001f928 & anger & ~wut \\
-\textbackslash\textbackslash U0001f92C & anger & ~wut \\
-\textbackslash\textbackslash U0001f92E & anger & ~wut \\
-\textbackslash\textbackslash U0001f92f & anger & ~wut \\
-\textbackslash\textbackslash U0001f94A & anger & ~wut \\
-\textbackslash\textbackslash U0001f480 & fear & ~angst \\
-\textbackslash\textbackslash U0001f61E & fear & ~angst \\
-\textbackslash\textbackslash U0001f61F & fear & ~angst \\
-\textbackslash\textbackslash U0001f622 & fear & ~angst \\
-\textbackslash\textbackslash U0001f625 & fear & ~angst \\
-\textbackslash\textbackslash U0001f628 & fear & ~angst \\
-\textbackslash\textbackslash U0001f629 & fear & ~angst \\
-\textbackslash\textbackslash U0001f62A & fear & ~angst \\
-\textbackslash\textbackslash U0001f62B & fear & ~angst \\
-\textbackslash\textbackslash U0001f62D & fear & ~angst \\
-\textbackslash\textbackslash U0001f62e & fear & ~angst \\
-\textbackslash\textbackslash U0001f62f & fear & ~angst \\
-\textbackslash\textbackslash U0001f630 & fear & ~angst \\
-\textbackslash\textbackslash U0001f631 & fear & ~angst \\
-\textbackslash\textbackslash U0001f632 & fear & ~angst \\
-\textbackslash\textbackslash U0001f633 & fear & ~angst \\
-\textbackslash\textbackslash U0001f636 & fear & ~angst \\
-\textbackslash\textbackslash U0001f637 & fear & ~angst \\
-\textbackslash\textbackslash U0001f63F & fear & ~angst \\
-\textbackslash\textbackslash U0001f640 & fear & ~angst \\
-\textbackslash\textbackslash U0001f641 & fear & ~angst \\
-\textbackslash\textbackslash U0001f912 & fear & ~angst \\
-\textbackslash\textbackslash U0001f915 & fear & ~angst \\
-\textbackslash\textbackslash U0001f927 & fear & ~angst \\
-\textbackslash\textbackslash U0001f97a & fear & ~angst \\
-\textbackslash\textbackslash u2639 & fear & ~angst \\
-:-) & joy & ~freude \\
-:) & joy & ~freude \\
-\textbackslash\textbackslash U00002705 & joy & ~freude \\
-\textbackslash\textbackslash U0001f31f & joy & ~freude \\
-\textbackslash\textbackslash U0001f339 & joy & ~freude \\
-\textbackslash\textbackslash U0001f33a & joy & ~freude \\
-\textbackslash\textbackslash U0001f340 & joy & ~freude \\
-\textbackslash\textbackslash U0001f37e & joy & ~freude \\
-\textbackslash\textbackslash U0001f389 & joy & ~freude \\
-\textbackslash\textbackslash U0001f44C & joy & ~freude \\
-\textbackslash\textbackslash U0001f44D & joy & ~freude \\
-\textbackslash\textbackslash U0001f44f & joy & ~freude \\
-\textbackslash\textbackslash U0001f44f\textbackslash\textbackslash U0001f3fb
-& joy & ~freude \\
-\textbackslash\textbackslash U0001f48B & joy & ~freude \\
-\textbackslash\textbackslash U0001f48C & joy & ~freude \\
-\textbackslash\textbackslash U0001f490 & joy & ~freude \\
-\textbackslash\textbackslash U0001f493 & joy & ~freude \\
-\textbackslash\textbackslash U0001f494 & joy & ~freude \\
-\textbackslash\textbackslash U0001f495 & joy & ~freude \\
-\textbackslash\textbackslash U0001f496 & joy & ~freude \\
-\textbackslash\textbackslash U0001f497 & joy & ~freude \\
-\textbackslash\textbackslash U0001f498 & joy & ~freude \\
-\textbackslash\textbackslash U0001f499 & joy & ~freude \\
-\textbackslash\textbackslash U0001f49A & joy & ~freude \\
-\textbackslash\textbackslash U0001f49B & joy & ~freude \\
-\textbackslash\textbackslash U0001f49C & joy & ~freude \\
-\textbackslash\textbackslash U0001f49D & joy & ~freude \\
-\textbackslash\textbackslash U0001f49E & joy & ~freude \\
-\textbackslash\textbackslash U0001f49F & joy & ~freude \\
-\textbackslash\textbackslash U0001f49F & joy & ~freude \\
-\textbackslash\textbackslash U0001f4AA & joy & ~freude \\
-\textbackslash\textbackslash U0001f4AF & joy & ~freude \\
-\textbackslash\textbackslash U0001f5a4 & joy & ~freude \\
-\textbackslash\textbackslash U0001f600 & joy & ~freude \\
-\textbackslash\textbackslash U0001f601 & joy & ~freude \\
-\textbackslash\textbackslash U0001f602 & joy & ~freude \\
-\textbackslash\textbackslash U0001f603 & joy & ~freude \\
-\textbackslash\textbackslash U0001f604 & joy & ~freude \\
-\textbackslash\textbackslash U0001f605 & joy & ~freude \\
-\textbackslash\textbackslash U0001f606 & joy & ~freude \\
-\textbackslash\textbackslash U0001f607 & joy & ~freude \\
-\textbackslash\textbackslash U0001f609 & joy & ~freude \\
-\textbackslash\textbackslash U0001f60A & joy & ~freude \\
-\textbackslash\textbackslash U0001f60B & joy & ~freude \\
-\textbackslash\textbackslash U0001f60C & joy & ~freude \\
-\textbackslash\textbackslash U0001f60D & joy & ~freude \\
-\textbackslash\textbackslash U0001f60E & joy & ~freude \\
-\textbackslash\textbackslash U0001f617 & joy & ~freude \\
-\textbackslash\textbackslash U0001f618 & joy & ~freude \\
-\textbackslash\textbackslash U0001f61A & joy & ~freude \\
-\textbackslash\textbackslash U0001f638 & joy & ~freude \\
-\textbackslash\textbackslash U0001f639 & joy & ~freude \\
-\textbackslash\textbackslash U0001f63A & joy & ~freude \\
-\textbackslash\textbackslash U0001f63B & joy & ~freude \\
-\textbackslash\textbackslash U0001f63C & joy & ~freude \\
-\textbackslash\textbackslash U0001f63D & joy & ~freude \\
-\textbackslash\textbackslash U0001f642 & joy & ~freude \\
-\textbackslash\textbackslash U0001f643 & joy & ~freude \\
-\textbackslash\textbackslash U0001f64c & joy & ~freude \\
-\textbackslash\textbackslash U0001f64F & joy & ~freude \\
-\textbackslash\textbackslash U0001f913 & joy & ~freude \\
-\textbackslash\textbackslash U0001f917 & joy & ~freude \\
-\textbackslash\textbackslash U0001f918 & joy & ~freude \\
-\textbackslash\textbackslash U0001f919 & joy & ~freude \\
-\textbackslash\textbackslash U0001f91D & joy & ~freude \\
-\textbackslash\textbackslash U0001f921 & joy & ~freude \\
-\textbackslash\textbackslash U0001f929 & joy & ~freude \\
-\textbackslash\textbackslash U0001f92A & joy & ~freude \\
-\textbackslash\textbackslash U0001f92D & joy & ~freude \\
-\textbackslash\textbackslash U0001f942 & joy & ~freude \\
-\textbackslash\textbackslash U0001f947 & joy & ~freude \\
-\textbackslash\textbackslash U0001f948 & joy & ~freude \\
-\textbackslash\textbackslash U0001f949 & joy & ~freude \\
-\textbackslash\textbackslash U0001f970 & joy & ~freude \\
-\textbackslash\textbackslash U0001f973 & joy & ~freude \\
-\textbackslash u263a & joy & ~freude \\
-\textbackslash u2665 & joy & ~freude \\
-\textbackslash u2764 & joy & ~freude \\
-\textbackslash ufe0f\textbackslash u2764 & joy & ~freude \\
-\$ & money & ~geld \\
-€ & money & ~geld \\
-\textbackslash\textbackslash U0001f30e & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f30f & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f411 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f437 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f440 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f44b & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f479 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f489 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f62c & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f634 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f648 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f649 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f64a & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f911 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f971 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f974 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f975 & other emotions & ~emotion \\
-\textbackslash\textbackslash U0001f9d0 & other emotions & ~emotion \\
-\textbackslash u2708 & other emotions & ~emotion \\
-! & punctuation & ~ruft \\
-!! & punctuation & ~ruft \\
-!? & punctuation & ~frage \\
-. & punctuation & ~punkt \\
-? & punctuation & ~frage \\
-:( & sad & ~traurig \\
-1 & number & ~eins \\
-2 & number & ~zwei \\
-3 & number & ~drei \\
-4 & number & ~vier \\
-5 & number & ~fünf \\
-6 & number & ~sechs \\
-7 & number & ~sieben \\
-8 & number & ~acht \\
-9 & number & ~neun \\
-10 & number & ~zehn \\
-100 - 999 & number & ~hunderte \\
-1000 - 9999 & number & ~tausende \\
-\midrule\noalign{}
-\end{longtable}
-\end{spacing}
-}
-```
-```{=latex}
-\newpage
-\renewcommand{\thefigure}{C\arabic{figure}}
-\renewcommand{\thetable}{C\arabic{table}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-```
-## Appendix C {.appendix}
-
-### Developing the DDR Measurement {.appendix}
-
-This study employed the “Distributed Dictionary Representation” (DDR) method [@garten2018DictionariesDistributions] and utilized its implementation in the R-package *dictvectoR* [@thiele2022ThieledDictvectoR] to quantify the level of populism in each comment. Figure C1 presents a schematic overview outlining the pipeline utilized for optimizing and applying the DDR measurement. Beyond the method description provided in the main article, this section will detail (1) the training of the *fastText* model, (2) the procedural steps involved in the optimization process, and (3) further evaluation regarding the importance of individual terms in the dictionary.
-
-![Pipeline for Optimizing and Applying the DDR Measurement](plots/pipeline_CCR_paper_20230516.pdf)
-
-### *FastText* Model {.appendix}
-
-I trained a custom *fastText* word embedding model [@bojanowski2017EnrichingWord] using the comprehensive corpus of German comments and German-language posts, including translations. Word embeddings represent the semantic relations between words in a multidimensional vector space [@mikolov2013EfficientEstimation]. These vector representations are produced by machine learning algorithms trained on extensive text corpora. These rely on the assumption that words of similar meaning repeatedly occur in similar contexts [@mikolov2013EfficientEstimation]. *FastText* models, distinguished from other embeddings, excel in handling social media texts as they are robust against misspellings, can generate vectors for out-of-vocabulary words, and perform well on morphologically rich languages. These capabilities are achieved by segmenting words into n-grams of characters, and inferring embeddings for these sub-word snippets as well [@bojanowski2017EnrichingWord].
-
-For the task in this research, I preferred a custom-trained word embedding model. Pre-trained, off-the-shelf models are typically sourced from curated texts like Wikipedia, which lack authentic expressions of populism. In addition, pre-trained models miss the meaning of terms with current relevance. This seems particularly relevant in the context of the COVID-19 crisis, which resulted in a whole vocabulary of new words.
-
-The documents used for training underwent cleaning processes detailed in Appendix B, were segmented into sentences using the *quanteda* [@benoit2018QuantedaPackage] tokenizer, and then randomized. After filtering duplicates and sentences containing fewer than 5 words, the model training dataset encompassed 3,564,352 lines of text.
-
-The model was trained on a local machine (Intel(R) i7-8565U CPU \@ 1.80GHz, 4 cores, 8 threads, 16 GB RAM, no GPU) utilizing the *fastrtext* R-package [@benesty2019Fastrtext]. I chose the skipgram method to train a model 200 dimensions, with the following hyperparameters: 20 epochs, learning rate .1, bucket size 2,000,000, context window size 7, maximum n-gram length 6, minimum n-gram length 3, and set a minimum word count threshold of 10 for inclusion in the vocabulary. The training completed within less than 2 hours, yielding a vocabulary of 89,309 terms.
-
-To evaluate the model's quality via face validity, I reviewed results from several nearest neighbor queries using political terms. For the formal validation, I focused on output validity, as reported in the main article. The model, along with the replication materials, is included in the replication repository: <https://osf.io/d4qng/>.
-
-### Optimizing the DDR Measurement {.appendix}
-
-The main article details the DDR method, validation data, and evaluation strategy. This section focuses on outlining the steps taken to identify an optimal DDR dictionary specifically geared toward capturing user-generated expressions of populism. The objectives were threefold: First, the dictionary should be *inductively* derived, reflecting genuine user-generated expressions of populism. At the same time, second, the dictionary should be *theory-driven*, reflecting core dimensions of populism. Third, the resulting measurement should be *comparable*, maximizing F1 scores across all countries. The R-code to replicate these steps is presented in the vignette 'from text to measurement' within my R-package *dictvectoR* [@thiele2022ThieledDictvectoR]. Due to copyright restrictions, the original Facebook text data cannot be shared. The data provided in the replication repository includes the scores from applying the DDR measurement and shareable data.
-
-Commencing with the 89,309 terms in the *fastText* model's vocabulary, I excluded the least common 10% of words and stop-words. Each word's cosine similarity to the average representation of two corpora was computed: Firstly, to the average representation of all comments tagged as populist in the training corpus and secondly, to the representation of all non-populist comments in the training dataset. Additionally, I computed the score difference, facilitated by `dictvectoR::find_distinctive()`. This initial process provided rough indicators for words potentially enhancing the recall and precision of the DDR score. I used the product of the populism similarity and distinctiveness scores to narrow down the list of words to 3,000 words. Multiword expressions frequently used in a random 50% subset of the corpus were added using `dictvectoR::add_multiwords()`. Multiword expressions are important in populist communication, as they are used to construct in- and out-groups (e.g., ‘wir steuerzahler’) and distinguish neutral from populist meanings of words. Next, F1 scores for each individual term were obtained, by treating each term as one-term-dictionary in the DDR and the annotated train sample for evaluation. `dictvectoR::get_many_F1s()` takes care of this task. Highly similar terms were dropped, keeping the best performing with `dictvectoR::remove_similar_words()`.
-
-Next, the words were reviewed manually. First, words were coarsely coded for relevance. Highly idiosyncratic word combinations and near-duplicates were dropped. Second, the remaining list of 287 terms was annotated using a more nuanced classification. Terms were annotated as referring to ‘elites’, ‘the people’, or some kind or ‘relation’ between those two antagonists. For ‘elites’ I further annotated subcategories. The terms annotated as ‘relation’, contained the subcategories ‘blaming’, ‘manipulation’, ‘sovereignty’, ‘damaging’, and ‘unaccountable’. These categories were built inductively from the identified words but reflect theoretical key dimension of populist discourse. From each of the three dimensions, the 15 best performing terms were selected.
-
-Using combinatorics and random sampling, 2.9 million different combinations of these 45 words were obtained. Dictionary lengths between three to fifteen words were allowed, with at least one word per dimension. The number of combinations was limited by randomly picking up to 100 combinations for each number of words per dimension combination. For example, instead of featuring all 3,003 combinations of length 5 from the 15 terms for ‘elites’, only 100 were sampled and combined with all combinations for the other dimensions. `dictvectoR::get_combis()` provides this function. The performance of the DDR measurements for each of the 2.9 million combinations was assessed by their F1 in predicting the human annotation in the train data. For the 10k best-performing combinations, F1 scores were computed additionally for each country. To evaluate consistency across countries, the 8th root of the product of the overall F1 score times all seven country F1 scores was calculated. The dictionary that maximized F1 most consistently on the train data was selected. A manual inspection, using the annotated subcategories, deemed that dictionary conceptually balanced and convincing. This dictionary and the validation results are documented in the main text.
-
-### Additional Equivalence Assessment {.appendix}
-
-In addition to the validation documented in the main text, I inspected the importance of each single dictionary term for the measurement performance across countries. To quantify the impact of each single term, a list of 12 dictionaries was created where each dictionary left out one of the 12 terms in the selected DDR dictionary. Each of these ‘incomplete’ dictionaries was used to predict populism in the (1) combined test & train validation sample, and (2) the test sample alone, and a F1 score calculated, as described in the main article. To assess deteriorated or improved performance, I inspect the difference between the F1 scores for the ‘incomplete’ and the complete DDR-dictionary. The heat-map in Figure C2 documents how leaving out one of the 12 DDR-dictionary terms (y-axis) improves (positive values; light-yellow) or deteriorates (negative values; dark-blue) the F1 score, compared to the complete dictionary performance in predicting populism in the test and train data (left grid) and test sample alone (right grid).
-
-The performance of an ideal measurement would (a) not decrease strongly by leaving out one term, (b) would exhibit a balanced pattern of term importance, and (c) would exhibit similar patterns across all countries. The heat-map in Figure C2 shows that the selected DDR-dictionary comes close to achieving these goals for the untranslated Austrian and German corpora: The differences there are relatively small (\<\|.03\|) and do not show outlying terms for both the combined data, as well as the test data alone. Similarly homogeneous patterns emerge for the Netherlands, and UK. The pattern is less balanced for France, Sweden, and Italy. For example, leaving out the term “sogenannte experten” decreases the performance on the French train & test corpus by -.05, and in likewise by -.05 in the Italian test corpus. These patterns illustrate that country-contexts continue to have an impact on the meaning of words, even after machine translation [@licht2023GoingCrosslingual, p. 20], and hence affect measurement performance and equivalence. The patterns are more imbalanced in the test data, which seems concerning. However, it must be noted that these imbalances are partly driven by the low number of true positives in the Italian (n= 22, 26%) and Swedish (n=27; 32%) test data, which is below the mean share of true positives in population test dataset (40%). As discussed in the main article, the careful inspection of the DDR measurement raises questions about its comparability across countries. Appendix E presents a robustness check of the comparative findings resulting from the regression analysis.
-
-![Changes in F1 when leaving out single DDR-dictionary terms by country](plots/heatmap_skip_words_20231129.pdf)
-
-```{=latex}
-\newpage
-\renewcommand{\thefigure}{D\arabic{figure}}
-\renewcommand{\thetable}{D\arabic{table}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-```
-## Appendix D {.appendix}
-
-### Dictionaries {.appendix}
-
-The subsequent tables document the multilingual dictionaries used for capturing references to *COVID-19,* COVID-19 containment policies (*Measures),* lifting of restrictive policies (*Easing)*, as well as *Experts* and the *Government*. Notably, the dictionaries for the first three categories share overlap, functioning as sub-categories of one another: All terms within *Measures* are encompassed within *COVID-19*, and all terms within *Easing* are included in *Measures*.
-
-The development of these dictionaries commenced with a manual translation derived from an existing German dictionary [@thiele2022PandemicPopulism], complemented by the utilization of translation websites (linguee.de; context.reverso.net) providing contextualized translations. Each term's suitability was determined through careful consideration of suggested translations and contextual relevance. Ambiguous terms were excluded. Subsequently, country-specific *fastText* models were trained, following the methodology detailed in Appendix C, utilizing the non-translated post corpora. These models were employed to retrieve the 20 nearest neighbors for each term. The obtained results underwent a secondary manual inspection, cross-referenced with context-sensitive translation websites (linguee.de; context.reverso.net). Furthermore, I used `quanteda::keywords-in-context()` to inspect the contextual use of the identified keywords within the analyzed corpus. Both sources of information were instrumental in supplementing the list of keywords, increasing the precision of the dictionary, and inferring wildcard placements.
-
-The *Government* dictionaries maintain case sensitivity and were applied to the non-lowercased corpora. To enrich these dictionaries, I compiled the names of the members of each country's national cabinets at the time of analysis, occasionally excluding too common family names. The German and Austrian dictionaries are identical except for their *Government* dictionary. All dictionaries are provided in a machine-readable format in the replication repository.
-
-```{=latex}
-
-{
-\begin{spacing}{.9}
-\fontsize{8}{9}\selectfont 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{.09\linewidth}
-  >{\raggedright\arraybackslash}p{.12\linewidth}
-  >{\raggedright\arraybackslash}p{.71\linewidth}@{}}
-\caption{Dictionaries.} \\
-\toprule\noalign{}
-\textbf{Language} & \textbf{Concept} \newline \emph{(n words)} & \textbf{Words}\textsuperscript{a} \\
-\midrule\noalign{}
-\endhead
-%\bottomrule\noalign{}
-\endlastfoot 
-\begin{minipage}[t]{\linewidth}\raggedright
-DE\\
-\strut \\
-\strut
-\end{minipage} & COVID-19 (124) & *ansteck*, *ausgangssperre*,
-*cluster*, *geimpft*, *immunisier*, *impf*, *infektion*, *infizier*,
-*lockdown*, *lockerung*, *maske*, *maskenpflicht, *maßnahme*, *pandemi*,
-*quarantäne*, *reisebeschränkung*, *reiseverbot*, *schnelltest*,
-*testpflicht*, *vakzin*, *viren*, *virus*, abstandsregel*, angesteckt*,
-antigen*, antikörper*, arzneimittelbehörde, astra*,
-ausgangsbeschränkung*, ausreisetestpflicht, biontech*, blutgerinnsel,
-blutgerinnseln, bundesgesundheitsminister, corona*, cov, covid*, delta,
-dosen, durchimpfung*, einreise*, einreisebeschränkung*,
-einreisebestimmungen, einreisestop*, einreiseverbot*, epidemie*,
-erkranken, erkrankung*, erreger, fallzahl*, ffp*, freitest*, gelockert,
-genesungen, gesundheitsexperte, gesundheitsminister, gesundheitssystem*,
-getestet*, ghebreyesus, gurgelt, herdenimmunität, home*office,
-homeoffice*, hospitalisierungen, hygiene, hygieneregeln, impfpflicht,
-intensivmedizinisch, intensivpatienten, intensivstationen, inzidenz*,
-kontaktbeschränkungen, kontaktpersonen, kontaktverbot*, kontrollen,
-körpernahe, lombardei, lungenkrankheit, masken*pflicht, massentest*,
-mindestabstand, moderna, mutante, mutanten, mutation, mutationen,
-neuinfektion*, notfallzulassung, öffnet, öffnungsschritt*, patienten,
-pcr*, pfizer*, pharmaunternehmen, präsenzunterricht*, regeln,
-reisewarnung*, reproduktionszahl*, risikogebiet*, risikogruppen, rki,
-sars*, sauerstoff, schulöffnung*, schulschließung*, schutzmaske*,
-schutzregel*, selbsttest*, social distanc*, sperrzone, spitalspatienten,
-stark eingeschränkt, superspread*, tests, teststraße*, teststrategie*,
-ungeimpft*, weiter eingeschränkt, weltgesundheitsorganisation, who,
-wieler, wuhan, zeneca, zweite* welle \\ \cline{2-3}
-
-& Measures (69)\textsuperscript{b} & *ausgangssperre*, *geimpft*,
-*impf*, *lockdown*, *lockerung*, *maske*, *maskenpflicht, *maßnahme*,
-*quarantäne*, *reisebeschränkung*, *reiseverbot*, *schnelltest*,
-*testpflicht*, *vakzin*, abstandsregel*, antigen*, arzneimittelbehörde,
-astra*, ausgangsbeschränkung*, ausreisetestpflicht, biontech*, dosen,
-durchimpfung*, einreise*, einreisebeschränkung*, einreisebestimmungen,
-einreisestop*, einreiseverbot*, ffp*, freitest*, gelockert, getestet*,
-gurgelt, home*office, homeoffice*, hygiene, hygieneregeln, impfpflicht,
-kontaktbeschränkungen, kontaktpersonen, kontaktverbot*, kontrollen,
-masken*pflicht, massentest*, mindestabstand, moderna, notfallzulassung,
-öffnet, öffnungsschritt*, pcr*, pfizer*, pharmaunternehmen, regeln,
-reisewarnung*, risikogebiet*, schulöffnung*, schulschließung*,
-schutzmaske*, schutzregel*, selbsttest*, social distanc*, sperrzone,
-stark eingeschränkt, tests, teststraße*, teststrategie*, ungeimpft*,
-weiter eingeschränkt, zeneca \\ \cline{2-3}
-
-& Easing (5)\textsuperscript{c} & *lockerung*, gelockert, öffnet,
-öffnungsschritt*, schulöffnung* \\ \cline{2-3}
-
-& Experts (50) & *arzt, *ärzt*, *expert*, *forschen*, *forschende*,
-*forscher*, *forschung*, *ologe, *ologen, *ologin, *professor*,
-*spezialist*, *studie, *studien, *studiendaten*, *studienergebnis*,
-*universität*, *wissenschaft*, anästhes*, apotheker, charité, drosten,
-endokrinolog*, epidemiolog*, ethikrat*, fachleute*, fda, ghebreyesus,
-immunolog*, impfkommission, infektiolog*, institut*, intensivmedizin,
-intensivmediziner, johns hopkins, mediziner, meduni, mikrobiolog*,
-pneumolog*, psycholog*, rki, robert koch, stiko, uni,
-universitätsklinik*, vakzinolog*, virolog*, weltgesundheitsorganisation,
-who, wieler \\ \cline{2-3}
-
-& Government - AT (39)\textsuperscript{d} &
-*inisterin Aschbacher, *kanzler*,
-*koalition*, *minister*, *minister?, *ministerium*, *regierung*,
-Anschober, Blümel, Brüssel, Christine Aschbacher, Edtstadler, EU
-Kommission*, eu* Kommission*, Europäische* Kommission*, Faßmann,
-Gewessler, Kabinett*, Kanzler*, Kocher, Kogler, Kommissionchefin,
-Kommissionspräsidentin, Köstinger, Kurz, Lunacek, Magnus Brunner,
-Minister, Ministerin, Ministerium*, Ministerrat*, Mückstein, Nehammer,
-Raab, Regierung*, Schallenberg, Schramböck, Tanner, Zadic \\ \cline{2-3}
-
-& Government - DE (38)\textsuperscript{d} &
-*inisterin Schulze, *kanzler*, *koalition*,
-*minister*, *minister?, *ministerium*, *regierung*, ?on der Leyen,
-Altmaier, Barley, Brüssel, EU Kommission*, eu* Kommission*, Europäische*
-Kommission*, Giffey, Heil, Helge Braun, Kabinett*, Kanzler*, Kanzleramt*
-Braun, Karliczek, Klöckner, Kommissionchefin, Kommissionspräsidentin,
-Kramp Karrenbauer, Lambrecht, Maas, Merkel*, Minister, Ministerin,
-Ministerium*, Ministerrat*, Regierung*, Scheuer, Scholz, Seehofer,
-Spahn, Svenja Schulze \\ \cline{1-3}
-
-EN & COVID-19 (77) & *cluster*, *easing*, *hotspot*, *immuni*,
-*infect*, *lockdown*, *pandemi*, *quarantine*, *vaccin*, *vaccinated*,
-*vaxx*, *virus*, antibod*, astra*, ban family visit*, ban visit*,
-biontech*, cases, combat coronavirus, contact tracing, containment
-measure*, corona*, coronavirus measure*, coronavirus safety measure*,
-coronavirus test*, covid measure*, covid test*, covid*, curfew,
-distancing, dose*, doses, eases, easing, epidemic, epidemic measure*,
-fatalit*, fight against covid, fight coronavirus, government response*,
-health verification*, health* measure*, healthcare, isolat*, jab,
-lifting, limit* travel*, major incident, mask*, mass test*, measure*
-taken, measure* to combat, measure* to fight, moderna, outbreak, pcr*,
-pfizer*, re?open*, reopening, restrictions, sanitiser, sars*, stem
-spread, stem the spread, strict* measure*, superspread*, test and trace,
-test positive, tested on covid, tested positive, testing, tougher
-measure*, tracing app, transmission, travel ban*, travel restrictions,
-wuhan \\ \cline{2-3}
-& Measures (60)\textsuperscript{b} & *easing*, *immuni*, *lockdown*,
-*quarantine*, *vaccin*, *vaccinated*, *vaxx*, astra*, ban family visit*,
-ban visit*, biontech*, combat coronavirus, contact tracing, containment
-measure*, coronavirus measure*, coronavirus safety measure*, coronavirus
-test*, covid measure*, covid test*, curfew, distancing, dose*, doses,
-eases, easing, epidemic measure*, fight against covid, fight
-coronavirus, government response*, health verification*, health*
-measure*, isolat*, jab, lifting, limit* travel*, major incident, mask*,
-mass test*, measure* taken, measure* to combat, measure* to fight,
-moderna, pcr*, pfizer*, re?open*, reopening, restrictions, sanitiser,
-stem spread, stem the spread, strict* measure*, test and trace, test
-positive, tested on covid, tested positive, testing, tougher measure*,
-tracing app, travel ban*, travel restrictions \\ \cline{2-3}
-& Easing (6)\textsuperscript{c} & *easing*, eases, easing, lifting,
-re?open*, reopening \\ \cline{2-3}
-& Experts (28) & doctor*, endocrinolog*, epidemiolog*, ethic* adviser,
-expert*, extrapolate, fda, finds, ghebreyesus, health professional,
-immunolog*, institute, johns hopkins, microbiolog*, pharmacists,
-physician*, professor, psycholog*, public health england, pulmonolog*,
-research*, scien*, specialist*, study, survey, technique, virolog*,
-world health organi?ation \\ \cline{2-3}
-& Government (48)\textsuperscript{d} & Alister Jack, Barclay, Ben
-Wallace, Brandon Lewis, Braverman, Brussels, Buckland, Coffey,
-commission president, Commission President, Dowden, EU commission*,
-European commission, Eustice, Gove, government, Government, Hancock,
-Hart, Jenrick, Johnson, Kwarteng, Liz Truss, Lord Frost, Mark Spencer,
-Michael Ellis, Milling, minister, Minister, ministry, Ministry, of Bowes
-Park, Patel, PM, prime minister Boris, Prime Minister Boris, Prime
-Minister Johnson, Raab, Rees Mogg, secretary, Secretary, Shapps, Sharma,
-Sunak, Trevelyan, UK prime minister, UK Prime Minister, Williamson \\ \cline{1-3}
-
-FR & covid-19 (63) & *anticorps, *autotest*, *épidémie, *incidence,
-*virus, antigéniques, astra*, biontech*, cas, cluster, confin,
-confinement, confinements, contag*, contamin*, contre la *pandemie,
-contre le *virus, contre le covid, corona*, couvre feu, cov, covid*,
-décision* difficil*, déconfinement, doses, écol* ferm*, événements
-annulés, fermés, fermeture*, ffp*, gestes barrières, hospitalisés,
-immunis*, immunitaire, immunité, infect*, inocul*, masque*, mesures
-barrières, mesures de confinement, mesures le covid, mesures
-restrictives, moderna, nouvell* mesur*, pand*mie, pcr, pfizer*,
-pharmaceutique, quarantaine, reconfinement, relâchement, réouverture,
-restrictions, rouvert, sars*, stopcovid, télétravail*, test*,
-transmission, vaccin*, variant, variants, wuhan \\ \cline{2-3}
-
-& Measures (41) & *autotest*, antigéniques, astra*, biontech*, confin,
-confinement, confinements, contre la *pandemie, contre le *virus, contre
-le covid, couvre feu, décision* difficil*, déconfinement, doses, écol*
-ferm*, événements annulés, fermés, fermeture*, ffp*, gestes barrières,
-inocul*, masque*, mesures barrières, mesures de confinement, mesures le
-covid, mesures restrictives, moderna, nouvell* mesur*, pcr, pfizer*,
-pharmaceutique, quarantaine, reconfinement, relâchement, réouverture,
-restrictions, rouvert, stopcovid, télétravail*, test*, vaccin* \\ \cline{2-3}
-
-& Easing (4)\textsuperscript{c} & déconfinement, relâchement,
-réouverture, rouvert \\ \cline{2-3}
-
-& Experts (30) & *ologiste, *ologue, *ologues, chercheur*, conseil de la
-santé, endocrinolog*, épidémiolog*, essai* clinique*, étude*, expert*,
-fda, ghebreyesus, hcsp, immunolog*, infectiolo*, institut, johns
-hopkins, médecin, médecins, microbiolog*, oms, organisation mondiale de
-la santé, pneumolog*, professionnel* de santé, psycholog*, scien*,
-spécialist*, traitement, université, virolog* \\ \cline{2-3}
-
-& Government (40)\textsuperscript{d} & Bachelot, Belloubet, Blanquer,
-Borne, Bruxelles, Buzyn, Castex, Collomb, Commission européenne,
-Darmanin, Denormandie, Dupond-Moretti, Dupond Moretti, Edouard Philippe,
-Flessel Colovic, Girardin, Gourault, gouvernement, Hulot, Le Drian, Le
-Maire, Lecornu, Macron, Matignon, Mézard, ministère, ministre*,
-Montchalin, Nyssen, Parly, Pénicaud, Pompili, président de la
-République, président Emmanuel, président français, président Macron,
-présidente de la Commission européenne, Travert, Véran, Vidal \\ \cline{1-3}
-
-IT & COVID-19 (70) & *antigen*, *contag*, *epidemi*, *immun*,
-*incidenz*, *infett*, *infez*, *pandemi*, *vaccin*, *vaccina*, *virale,
-*virus*, allentament*, anti coronavirus, anti covid, anti virus,
-anticorp*, astra zeneca, astrazeneca, biontech*, casi, contenere i*,
-contenere la, contenimento, coprifuoco, coronavir*, cov, covid*,
-decessi, delta, distanziamento, dosi, ffp*, guariti, impone, isolament*,
-lockdown, lotta alla pandemia, mascherin*, misura, misure, misure
-restrittive, misure rigide, morti, nuova stretta, passaporto sanitario,
-pfizer, provvedimenti, quarantena, restrizioni, riaperture, riapre,
-ricoverati, sars*, scuole chiuse, sintomi, superspreader, telelavor*,
-test, trasmissibilità, trombosi, una stretta, variante, virologi,
-virologia, wuhan, zona arancione, zona gialla, zona rossa, zone rosse \\ \cline{2-3}
-
-& Measures (43)\textsuperscript{b} & *antigen*, *vaccin*, *vaccina*,
-allentament*, anti coronavirus, anti covid, anti virus, astra zeneca,
-astrazeneca, biontech*, contenere i*, contenere la, contenimento,
-coprifuoco, distanziamento, dosi, ffp*, impone, isolament*, lockdown,
-lotta alla pandemia, mascherin*, misura, misure, misure restrittive,
-misure rigide, nuova stretta, passaporto sanitario, pfizer,
-provvedimenti, quarantena, restrizioni, riaperture, riapre, scuole
-chiuse, telelavor*, test, trombosi, una stretta, zona arancione, zona
-gialla, zona rossa, zone rosse \\ \cline{2-3}
- 
-& Easing (3)\textsuperscript{c} & allentament*, riaperture, riapre \\ \cline{2-3}
-
-& Experts (39) & agenzia italiana del farmaco, aifa, anestes*, autorità
-sanitarie, borrelli, commissione sanitaria, dott, dottore*,
-endocrinolog*, epidemiolog*, espert*, farmacisti, fda, fondazione,
-ghebreyesus, immunolog*, infettivolog*, institut*, johns hopkins,
-magrini, medici, medico, microbiolog*, oms, organizzazione mondiale
-della sanità, pneumolog*, professore*, psicolog*, ricerc*, ricerca,
-ricercatore, ricercatori, ricercatrice, scien*, specialist*, studi,
-studio, università, virolog* \\ \cline{2-3}
-
-& Government (59)\textsuperscript{d} & *inistro Bianchi, ?onsiglio dei
-?inistri, ?residente del ?onsiglio, Amendola, Azzolina, Bellanova,
-Boccia, Bonafede, Bonetti, Brunetta, Bruxelles, Carfagna, Cartabia,
-Catalfo, Cingolani, Colao, commissione europea, Commissione europea,
-Commissione Europea, Consiglio dei ministri, Conte, D'Incà, D Incà,
-Dadone, Daniele Franco, De Micheli, Di Maio, Draghi, Fioramonti,
-Fraccaro, Franceschini, Garavaglia, Garofoli, Gelmini, Giorgetti,
-Giovannini, governo, Governo, Gualtieri, Guerini, Lamorgese, Manfredi,
-Messa, minister?, Minister?, ministr?, Ministr?, Orlando, Patrizio
-Bianchi, Patuanelli, Pisano, premier, presidente della ?ommissione
-?uropea, presidente della ?ommissione Ue, Provenzano, Sergio Costa,
-Spadafora, Speranza, Stefani \\ \cline{1-3}
-
-NL & COVID-19 (110) & *antigeen*, *antilicham*, *besmet*, *inent*,
-*infect*, *lockdown*, *masker*, *metermaatregel*, *pandemie*,
-*quarantain*, *reisverbod*, *vaccin*, *virus*, afstand*,
-anderhalvemetermaatschap*, anderhalvemeterregel,
-anderhalvemetersamenlev*, astra*, avondklok*, avondklokken,
-avondklokrellen, basisschool dicht, beperkende maatregel*, bezoekregel*,
-bijwerkingen, biontech*, cluster*, code rood, corona, corona maatregel*,
-corona*, coronabeleid, coronagevallen, coronamaatregelen, coronaregels,
-coronatesten, coronatests, coronawet, covid*, doses, ema, epidemie*,
-farmaceut, farmaceuten, ffp*, gaan dicht, gemuteerde,
-geneesmiddelenbureau, geprikt, gevaccin*, gezondheidsraad,
-gezondheidszorg*, groepsimmuniteit*, heropenen, injectie, inreisregel*,
-kunnen open, maatregel*, maatregel* om de verspreiding, maatregel* tegen
-het coronavirus, masker*, moderna, mondkapje*, mutatie, nieuwe
-maatregel*, openingsplan, patiënten, pcr*, pfizer*, prikken, reisadvie*,
-reisbeperk*, reisverbod*, reproductiegetal*, restaurants dicht,
-risicogebied*, rivm, sars*, scholen dicht, sneltest*, sterfgevallen,
-steunmaatregelen, strenge* maatregel*, terrassen open*, testen*,
-teststrategie, teststraten, thuisblijven, thuiswerken, variant,
-varianten, veiligheidsmaatregel*, verpleegafdelingen, verplicht,
-versoepeld, versoepelen, versoepeling, versoepelingen,
-virusmaatregelen*, voorlopig dicht, weer open*,
-wereldgezondheidsorganisatie*, who, winkels dicht, wuhan, zelftest*,
-ziekenhuis, ziekenhuisopnames, ziekenhuispersoneel, zorgsysteem* \\ \cline{2-3}
-
-& Measures (58)\textsuperscript{b} & *antigeen*, *inent*, *lockdown*,
-*masker*, *quarantain*, *reisverbod*, *vaccin*, afstand*,
-anderhalvemeterregel, astra*, avondklok*, avondklokken, avondklokrellen,
-bezoekregel*, biontech*, coronabeleid, coronamaatregelen, coronaregels,
-coronatesten, coronatests, coronawet, doses, ema, farmaceut, ffp*,
-geprikt, gevaccin*, heropenen, injectie, inreisregel*, kunnen open,
-maatregel*, masker*, moderna, mondkapje*, openingsplan, pcr*, pfizer*,
-prikken, reisadvie*, reisbeperk*, reisverbod*, risicogebied*, sneltest*,
-steunmaatregelen, terrassen open*, testen*, teststrategie, teststraten,
-thuiswerken, verplicht, versoepeld, versoepelen, versoepeling,
-versoepelingen, virusmaatregelen*, weer open*, zelftest* \\ \cline{2-3}
- 
-& Easing (10)\textsuperscript{c} & heropenen, kunnen open,
-openingsplan, steunmaatregelen, terrassen open*, versoepeld,
-versoepelen, versoepeling, versoepelingen, weer open* \\ \cline{2-3}
-
-& Experts (37) & *deskundige*, *expert*, *loog, *ologen, *onderzoek,
-*onderzoek*, *onderzoeken, *onderzoeker*, *specialist*, *studie,
-*studies, *wetenschap*, arts*, dokt?r*, epidemiolog*, fda, ggd,
-ghebreyesus, hogeschool, hooglera*, immunolog*, istitut*, johns hopkins,
-longarts*, microbiolog*, nvwa, planbureau*, professor*, psycholog*,
-rijksinstituut, rivm, scp, studieresultaten, universiteit, virolog*,
-wereldgezondheidsorganisatie, who \\ \cline{2-3}
-
-& Government (46)\textsuperscript{d} & *inister Bruins, *inister
-Schouten, *minister, *minister?, ?an Ark, ?an Engelshoven, ?an
-Nieuwenhuizen, ?an Rijn, ?an Veldhoven, ?e Jonge, Barbara Visser,
-Bijleveld, Blok, Bruno Bruins, Brussel, Carola Schouten,
-Commissievoorzitter, de Bruijn, Europese Commissie, Grapperhaus, Henk
-Kamp, Hoekstra, Kaag, kabinet*, Kabinet*, Knapen, Koolmees, Minister,
-ministerie, Ministerie, ministerraad, Ollongren, overheid, Overheid,
-premier, Premier, Raymond Knops, regering*, Regering*, Rutte, Sander
-Dekker, Slob, van Nieuwenhuizen, van t Wout, Wiebes, Zijlstra \\ \cline{1-3}
-
-SE & COVID-19 (110) & *epidemi*, *infekt*, *karantän*, *lockdown*,
-*masker*, *pfizer*, *reseförbud*, *reserestriktion*, *vaccin*, *virus*,
-antigen*, antikropp*, astra*, besöksförbud, biontech*, biverkningar,
-blodproppar, bromsa* spridning*, corona strategi, corona*, coronaåret,
-coronapandemin, coronarestriktioner*, coronasmittad, coronasmittade,
-coronastrategi*, coronatest*, coronatider, covid strategi, covid test,
-covid*, covidtest*, distansering, distansundervisning*, dödssiffran,
-dosen, doserna, ema, farsot*, flockimmunitet*, folkhälsomyndighet*
-rekommendation*, folkhälsomyndigheten, folkhälsomyndighetens,
-folkhälsomyndighetens råd, folksamlingar, förblir stängt, fortsatt
-stäng*, håll* avstånd, håll* hemma, håll* öppet, hålla gränser öppna,
-hållas stängd, immunitet, immuniteten, incidens*, inreseförbud*,
-inreserestriktion*, isoler*, kampen mot corona*, kampen mot covid*,
-klartecken, kontaktförbud, läkemedelsbolaget, läkemedelsjätten,
-lättnader, masstest*, modernas, munskydd*, mutation, mutationen,
-nedstängning*, öpp* gräns*, öpp* igen, öppna, öppning*, pandemi*,
-pandemilagen*, patienten, pcr*, restriktioner, restriktionerna,
-riskområde*, sars*, självtest*, sjukhusen, sjukhusvård, sjukvård*,
-skolorna öppnar, skolstängningar*, skyddsåtgärd*, smitt*, snabbtest*,
-spridningen, stäng* alla, stäng* gräns*, stäng* sina gräns*, stäng*
-skol*, stäng* sve*, stänga barer, stängd* krogarna, stängda, stoppa*
-spridning*, testning*, testresultat, uppluckring, utegångsförbud*,
-världshälsoorganisation*, wuhan, zeneca, zenecas \\ \cline{2-3}
-
-& Measures (79)\textsuperscript{b} & *karantän*, *lockdown*, *masker*,
-*pfizer*, *reseförbud*, *reserestriktion*, *vaccin*, antigen*, astra*,
-besöksförbud, biontech*, biverkningar, blodproppar, bromsa* spridning*,
-corona strategi, coronarestriktioner*, coronastrategi*, coronatest*,
-covid strategi, covid test, covidtest*, distansering,
-distansundervisning*, dosen, doserna, ema, folkhälsomyndighet*
-rekommendation*, folkhälsomyndighetens råd, folksamlingar, förblir
-stängt, fortsatt stäng*, håll* avstånd, håll* hemma, håll* öppet, hålla
-gränser öppna, hållas stängd, inreseförbud*, inreserestriktion*,
-isoler*, kampen mot corona*, kampen mot covid*, klartecken,
-kontaktförbud, läkemedelsbolaget, läkemedelsjätten, lättnader,
-masstest*, modernas, munskydd*, nedstängning*, öpp* gräns*, öpp* igen,
-öppna, öppning*, pandemilagen*, pcr*, restriktioner, restriktionerna,
-riskområde*, självtest*, skolorna öppnar, skolstängningar*,
-skyddsåtgärd*, snabbtest*, stäng* alla, stäng* gräns*, stäng* sina
-gräns*, stäng* skol*, stäng* sve*, stänga barer, stängd* krogarna,
-stängda, stoppa* spridning*, testning*, testresultat, uppluckring,
-utegångsförbud*, zeneca, zenecas \\ \cline{2-3}
-
-& Easing (10)\textsuperscript{c} & håll* öppet, hålla gränser öppna,
-klartecken, lättnader, öpp* gräns*, öpp* igen, öppna, öppning*, skolorna
-öppnar, uppluckring \\ \cline{2-3}
-
-& Experts (39) & *epidemiolog*, *expert*, *forskare, *forskaren,
-*forskning*, *institutet, *läkare*, *läkarn*, *professor, *professorn,
-*studie, *studier, *universitet*, *vetenskap*, fda, fhi, fhm,
-folkhälsomyndighet*, forskarna, ghebreyesus, immunolog*, ivo, johns
-hopkins, läkark*, mikrobiolog*, msb, psykolog*, sakkunnig*, scb,
-sjukvårdsdirektör, socialstyrelsen, specialist*, statistiska
-centralbyrån, tegnell, universitetssjukhuset, vaccinimmunolog*,
-världshälsoorganisationen*, virolog*, who \\ \cline{2-3}
-
-& Government (45)\textsuperscript{d} & *departement*, *minister,
-*minister* Johansson, *minister?, Amanda Lind, Ann Linde, Anna Hallberg,
-Baylan, Bolund, Bryssel, Damberg, Ekström, Eneroth, Ernkrans, EU
-kommission*, Eva Nordmark, Fridh, Hans Dahlgren, Jennie Nilsson,
-kommissionens ordförande, kommissionsordförande, Lena Hallengren,
-Lindhagen, Löfven, Lövin, Magdalena Andersson, Margot Wallström, Micko,
-Minister*, ministerrådet, Morgan Johansson, Peter Eriksson, Peter
-Hultqvist, regering*, Regering*, regeringskansliet*, Regeringskansliet*,
-Shekarabi, statsminister*, Statsminister*, statsråd*, Statsråd*,
-Stenevi, Strandhäll, Ygeman \\ 
-\midrule\noalign{}
-\multicolumn{3}{@{}m{\textwidth}@{}}{\tiny{\emph{Notes:} : (a) A * represents a wildcard, it matches any number of characters or digits; (b) All terms included in ‘measures’ are also included in ‘COVID-19’; (c) All terms included in ‘easing’ are also included in ‘measures’ and ‘COVID-19’; (d) Case-sensitive.}}   \\
-\end{longtable}
-\end{spacing}
-}
-```
-```{=latex}
-\newpage
-\renewcommand{\thefigure}{E\arabic{figure}}
-\renewcommand{\thetable}{E\arabic{table}}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-```
-```{=latex}
-\newpage
-\begin{landscape}
-
-\hypertarget{appendix-e}{%
-\subsection{Appendix E}\label{appendix-e}}
-
-{
-\begin{spacing}{.8}
-\fontsize{7.5}{8}\selectfont 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{0.07\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}
-  >{\centering\arraybackslash}p{0.025\linewidth}
-  >{\centering\arraybackslash}p{0.065\linewidth}@{}}
-\caption{Bayesian linear regression models, non-pooled data.} \\
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\end{minipage} & 
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{AT}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{DE}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{FR}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{IT}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{NL}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{SE}
-} &
-\multicolumn{2}{p{0.115\linewidth}}{\centering
-\textbf{UK}
-}
-\\
-\emph{Predictors} & 
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} &
-\multicolumn{1}{c}{\emph{Est.}} &
-\multicolumn{1}{c}{\emph{CI (95\%)}} 
-\\
-\midrule\noalign{}
-\endhead
-%\bottomrule\noalign{}
-\endlastfoot  
-Intercept & -.03 &  -.07 -- .01 &   .08 & .05 -- .12    & .20   & .16 -- .24    & -.01  & -.06 -- .03 &     -.38 &  -.42 -- -.35 &  .11 & .07 -- .15 &  .03 & -.02 -- .07 \\
-Comments count &    .10 &  .08 -- .12 & .18 & .17 -- .20    & .19   & .17 -- .21    & .17   & .15 -- .20    & .17   & .15 -- .18    & .06   & .04 -- .09    & .27   & .24 -- .29 \\
-Days since outbreak &   -.04    & -.08 -- -.01  & .11   & .08 -- .15    & .01   & -.03 -- .05   & .05   & .01 -- .08    & -.00  & -.04 -- .03   & .05   & .02 -- .09    & -.07  & -.12 -- -.03 \\
-First wave  & -.34  & -.40 -- -.27  & -.25  & -.32 -- -.18  & -.25  & -.33 -- -.17  & -.05  & -.13 -- .02   & -.17  & -.24 -- -.10  & -.19  & -.27 -- -.11  & -.09  & -.18 -- -.00 \\
-Stringency \tiny(lagged)    & .02   & -.01 -- .05   & .00   & -.02 -- .03   & -.04  & -.07 -- -.02  & -.02  & -.05 -- .00   & .01   & -.02 -- .04   & -.03  & -.06 -- -.00  & .12   & .08 -- .16 \\
-COVID-19 \tiny(mentioned) &     .17 & .13 -- .20    & .29   & .25 -- .32    & .09   & .05 -- .13    & .20   & .16 -- .24    & .30   & .26 -- .34    & .13   & .08 -- .17    & .21   & .16 -- .25 \\
-Government \tiny(mentioned) & .56   & .51 -- .60    & .29   & .24 -- .33    & .47   & .41 -- .53    & .45   & .39 -- .51    & .59   & .54 -- .65    & .52   & .45 -- .58    & .58   & .51 -- .66 \\
-Experts \tiny(mentioned)    & .13   & .07 -- .19    & .03   & -.02 -- .08   & .18   & .09 -- .26    & .07   & .01 -- .13    & .22   & .16 -- .27    & .15   & .10 -- .20    & .11   & .03 -- .19 \\
-Media type \tiny(tabloid)   &  -.16 & -.20 -- -.12 &    -.70    & -.74 -- -.66  & -.54  & -.59 -- -.49  & -.40  & -.45 -- -.35  & .23   & .19 -- .27    & -.51  & -.56 -- -.46  & -.53  & -.59 -- -.48 \\
-Media type \tiny(pub. broadcaster)  & .09   & .04 -- .15    & .25   & .21 -- .29    & -.13  & -.18 -- -.09  & .00   & -.05 -- .05   & .48   & .44 -- .53    & -.12  & -.17 -- -.07  & .08   & .02 -- .14 \\
-Moderation  & .02   & -.06 -- .10   & -.17  & -.21 -- -.12  & -.14  & -.51 -- .22   & -.39  & -.94 -- .18   & -.22  & -.47 -- .03   & -.03  & -.14 -- .07   & -.22  & -.36 -- -.08 \\
-Stringency x COVID-19   & .13   & .10 -- .17    & .10   & .07 -- .13    & .01   & -.03 -- .05   & .01   & -.04 -- .05   & .13   & .09 -- .16    & -.02  & -.06 -- .02   & -.01  & -.06 -- .04 \\
-\midrule\noalign{}
-Bayes R\textsuperscript{2} & 
-\multicolumn{1}{l}{.13} & .12 -- .14 & 
-\multicolumn{1}{l}{.34} & .33 -- .35 &
-\multicolumn{1}{l}{.13} & .12 -- .14 &
-\multicolumn{1}{l}{.12} & .11 -- .13 &
-\multicolumn{1}{l}{.20} & .19 -- .22 &
-\multicolumn{1}{l}{.09} & .08 -- .10 &
-\multicolumn{1}{l}{.22} & .20 -- .23 \\
-N   & 12,345 & &    10,066 & &  8,818 & &   8,547 & &   9,913   & &  9,123 & &  6,446 \\
-\midrule\noalign{}
-\multicolumn{14}{l}{\tiny{\emph{Notes:} Priors: intercept (normal 0, 10), b (normal 0, 10), $\sigma$ (Cauchy 0, .5). Bayes R\textsuperscript{2} estimated on 2,000 draws.}} \\
-\end{longtable}
-\end{spacing} 
-}
-
-\end{landscape}
-```
-As a robustness check for the comparative analysis presented in the main article, Table E1 presents the outcomes of Bayesian regression models fitted separately for each country, using non-pooled data. These models encompass all variables featured in Model 3 of the main article, excluding random effects on page level due to the limited categories within the grouping variable, page, which comprises only 3 categories per country. This is deemed insufficient even within a Bayesian framework. While media type is included in these models, aligning with the page variable when countries are examined independently, uncertainty from the page level isn't directly modeled, resulting in narrower credible intervals (CIs). Continuous variables in these models were standardized and centered on country-means.
-
-To corroborate the positive effect of stringency on populism when mentioning COVID-19, as observed in Model 3 for Germany, Austria, and the Netherlands in the main article, Figure E1 illustrates the populism predictions under specified conditions from country-specific models. Stringency ranges from the overall minimum (uniform across countries; represented in yellow) to the overall maximum (depicted in purple). The interaction of mentioning COVID-19 with this variable is set to 1, while all other variables are set to 0 or their respective means, consistent due to centering.
-
-The distributions depict posterior draws, with lines indicating the 80% (bold) and 95% (thin) CIs. The figure highlights substantial positive effects of stringency on populism when COVID-19 is mentioned, observed in the country samples of Austria, Germany, the Netherlands, and additionally, the UK, supplementing the findings from the main article. Conversely, these effects are either insignificant (Italy) or trend in the opposite direction (FR, SE) in other countries. Inspecting the Bayes-R^2^ in Table E1, which are estimated on 2,000 draws, shows that the fitted model explains an exceptionally large variance (.34, \[.33-.35\]) in the German data. However, this does not seem to be an artifact of language: Both, for the UK (.22, \[.20-.23\]) and for the Netherlands (.20, \[.19-.22\]), we find higher values of Bayes-R^2^ than for equally German-speaking Austria (.13, \[.12-.14\]). Overall, although the CIs might not fully capture the uncertainty from the page level, these findings fortify the robustness of the country-specific effects identified in Model 3 of the main article.
-
-![Conditional effects of stringency on the predicted level of populism by country](plots/plot_strgXcov_SEP_ctry_fxdeff_20231130.pdf)
